@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.bytedeco.javacpp-presets:ffmpeg:windows-x86_64:2.6.1-0.11">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/ffmpeg/2.6.1-0.11/ffmpeg-2.6.1-0.11-windows-x86_64.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/ffmpeg/2.6.1-0.11/ffmpeg-2.6.1-0.11-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/ffmpeg/2.6.1-0.11/ffmpeg-2.6.1-0.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="LemonSpider">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/LemonSpider_jar/LemonSpider.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

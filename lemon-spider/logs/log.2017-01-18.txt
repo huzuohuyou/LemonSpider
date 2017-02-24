@@ -1,0 +1,50 @@
+09:59:32.021 WARN  o.a.h.c.p.ResponseProcessCookies- Cookie rejected [JSESSIONID="04892A537DC0CB4083435A1E5A43F361.thrasher", version:0, domain:pubmedcentralcanada.ca, path:/pmcc/, expiry:null] Illegal 'path' attribute "/pmcc/". Path of origin: "/ptpicrender.fcgi"
+09:59:33.085 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 01:59:32 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 01:59:32 GMT
+09:59:33.663 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 01:59:32 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 01:59:32 GMT
+09:59:34.735 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 01:59:34 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 01:59:34 GMT
+09:59:36.212 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 01:59:36 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 01:59:36 GMT
+09:59:37.595 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 01:59:37 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 01:59:37 GMT
+09:59:40.796 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 01:59:40 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 01:59:40 GMT
+10:00:02.464 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 02:00:02 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 02:00:02 GMT
+10:00:04.991 WARN  o.a.h.c.p.ResponseProcessCookies- Cookie rejected [JSESSIONID="24252967A70630B919F256E1B2FB5578.eider", version:0, domain:pubmedcentralcanada.ca, path:/pmcc/, expiry:null] Illegal 'path' attribute "/pmcc/". Path of origin: "/ptpicrender.fcgi"
+10:00:05.979 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 02:00:05 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 02:00:05 GMT
+10:00:06.695 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 02:00:06 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 02:00:06 GMT
+10:01:29.786 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 02:01:29 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 02:01:29 GMT
+10:01:31.159 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 02:01:31 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 02:01:31 GMT
+10:01:33.120 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 02:01:32 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 02:01:32 GMT
+10:01:36.116 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 02:01:35 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 02:01:35 GMT
+10:01:37.550 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 02:01:37 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 02:01:37 GMT
+10:01:39.035 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 02:01:38 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 02:01:38 GMT
+11:27:16.677 WARN  c.l.c.Log- [Xproxy.java # 124]
+[warn]  first loading failed, try another way. /pmcc/articles/PMC3100044/bin/e-67-0o999-fig2.jpg
+11:27:31.421 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 03:27:29 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 03:27:29 GMT
+13:55:13.649 WARN  c.l.c.Log- [Xproxy.java # 86]
+[warn]  first loading failed, try another way. /pmcc/articles/PMC3100565/figure/fig6/
+13:55:19.712 WARN  c.l.c.Log- [Xproxy.java # 86]
+[warn]  first loading failed, try another way. /pmcc/articles/PMC3100552/figure/F1/
+15:49:16.613 WARN  c.l.c.Log- [Xproxy.java # 124]
+[warn]  first loading failed, try another way. /pmcc/articles/PMC3101081/bin/nihms296083f6.jpg
+15:49:18.052 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 07:49:17 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 07:49:17 GMT
+15:50:05.023 WARN  c.l.c.Log- [Xproxy.java # 124]
+[warn]  first loading failed, try another way. /pmcc/articles/PMC3101083/bin/fig-1.gif
+15:50:06.344 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 07:50:06 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 07:50:06 GMT
+15:50:06.407 WARN  o.a.h.c.p.ResponseProcessCookies- Cookie rejected [JSESSIONID="70F7AE1DC1931C474793413A089795DF.thrasher", version:0, domain:pubmedcentralcanada.ca, path:/pmcc/, expiry:null] Illegal 'path' attribute "/pmcc/". Path of origin: "/ptpicrender.fcgi"
+15:55:42.108 WARN  c.l.c.Log- [Xproxy.java # 124]
+[warn]  first loading failed, try another way. /pmcc/articles/PMC3101094/bin/JCB_201007002_RGB_Fig6.gif
+15:55:44.867 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 07:55:44 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 07:55:44 GMT
+16:15:54.358 WARN  c.l.c.Log- [Xproxy.java # 137]
+[warn]  first loading failed, try another way. /pmcc/articles/PMC3101142/bin/mcr07603.jpg
+16:15:56.942 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 08:15:56 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 08:15:56 GMT
+16:16:26.318 WARN  c.l.c.Log- [Xproxy.java # 137]
+[warn]  first loading failed, try another way. /pmcc/articles/PMC3101160/bin/1743-422X-8-150-2.gif
+16:16:27.767 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 08:16:27 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 08:16:27 GMT
+16:23:14.113 WARN  c.l.c.Log- [Xproxy.java # 137]
+[warn]  first loading failed, try another way. /pmcc/articles/PMC3101145/bin/mcr07904.jpg
+16:23:25.221 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 08:23:24 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 08:23:24 GMT
+16:23:50.715 WARN  c.l.c.Log- [Xproxy.java # 137]
+[warn]  first loading failed, try another way. /pmcc/articles/PMC3101146/bin/mcr08011.gif
+16:23:52.863 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 08:23:52 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 08:23:52 GMT
+16:23:54.351 WARN  c.l.c.Log- [Xproxy.java # 137]
+[warn]  first loading failed, try another way. /pmcc/articles/PMC3101159/bin/1471-2288-11-47-i1.gif
+16:23:55.879 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 08:23:55 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 08:23:55 GMT
+16:43:17.130 WARN  o.a.h.c.p.ResponseProcessCookies- Invalid cookie header: "set-cookie: lang=en-ca; domain=pubmedcentralcanada.ca; path=/; expires=Thu, 02 Feb 2017 08:43:16 GMT". Invalid 'expires' attribute: Thu, 02 Feb 2017 08:43:16 GMT

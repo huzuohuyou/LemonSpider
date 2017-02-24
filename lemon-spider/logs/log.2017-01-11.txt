@@ -1,0 +1,213 @@
+14:55:33.429 ERROR c.l.c.t.SpringCtx- get Bean
+java.lang.NullPointerException: null
+	at com.lemon.commons.tools.SpringCtx.getBean(SpringCtx.java:43) ~[classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.<init>(QuestionSpider.java:40) [classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.main(QuestionSpider.java:35) [classes/:na]
+14:56:07.983 ERROR c.l.c.t.SpringCtx- get Bean
+java.lang.NullPointerException: null
+	at com.lemon.commons.tools.SpringCtx.getBean(SpringCtx.java:43) ~[classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.<init>(QuestionSpider.java:41) [classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.main(QuestionSpider.java:35) [classes/:na]
+15:19:47.042 ERROR c.l.c.t.SpringCtx- get Bean
+java.lang.NullPointerException: null
+	at com.lemon.commons.tools.SpringCtx.getBean(SpringCtx.java:43) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.PMCMain.<init>(PMCMain.java:51) [classes/:na]
+	at com.lemon.tools.spider.pmc.PMCMain.main(PMCMain.java:33) [classes/:na]
+15:20:03.131 ERROR c.l.c.t.SpringCtx- get Bean
+java.lang.NullPointerException: null
+	at com.lemon.commons.tools.SpringCtx.getBean(SpringCtx.java:43) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.PMCMain.<init>(PMCMain.java:52) [classes/:na]
+	at com.lemon.tools.spider.pmc.PMCMain.main(PMCMain.java:33) [classes/:na]
+15:21:25.111 ERROR c.l.c.t.SpringCtx- get Bean
+java.lang.NullPointerException: null
+	at com.lemon.commons.tools.SpringCtx.getBean(SpringCtx.java:43) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.PMCMain.<init>(PMCMain.java:51) [classes/:na]
+	at com.lemon.tools.spider.pmc.PMCMain.main(PMCMain.java:33) [classes/:na]
+15:21:25.117 ERROR c.l.c.t.SpringCtx- get Bean
+java.lang.NullPointerException: null
+	at com.lemon.commons.tools.SpringCtx.getBean(SpringCtx.java:43) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.PMCMain.<init>(PMCMain.java:52) [classes/:na]
+	at com.lemon.tools.spider.pmc.PMCMain.main(PMCMain.java:33) [classes/:na]
+15:22:43.443 ERROR c.l.c.t.SpringCtx- get Bean
+java.lang.NullPointerException: null
+	at com.lemon.commons.tools.SpringCtx.getBean(SpringCtx.java:43) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.PMCMain.<init>(PMCMain.java:51) [classes/:na]
+	at com.lemon.tools.spider.pmc.PMCMain.main(PMCMain.java:33) [classes/:na]
+15:22:43.451 ERROR c.l.c.t.SpringCtx- get Bean
+java.lang.NullPointerException: null
+	at com.lemon.commons.tools.SpringCtx.getBean(SpringCtx.java:43) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.PMCMain.<init>(PMCMain.java:52) [classes/:na]
+	at com.lemon.tools.spider.pmc.PMCMain.main(PMCMain.java:33) [classes/:na]
+15:22:58.697 WARN  o.s.c.s.ClassPathXmlApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in file [/Users/bob/git/LemonSpider/modules/tools/target/classes/applicationContext.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+15:37:44.676 WARN  o.s.c.s.FileSystemXmlApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in URL [file:/Users/bob/git/LemonSpider/modules/tools/target/classes/applicationContext.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+15:48:21.791 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC1/?null
+15:48:23.900 WARN  c.l.c.u.n.LemonHttpClient- spide url :http://pubmedcentralcanada.ca/pmcc/articles/PMC1/?null use 2 s
+15:49:25.829 ERROR c.l.c.JsonMapper- [error] json -> object Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:rb="java:java.util.ResourceBundle" xmlns:loc="java:java.util.Locale"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Exception</title><meta name="robots" content="NOINDEX,NOFOLLOW,NOARCHIVE" /><link rel="stylesheet" href="/corehtml/pmc/css/3.3/ncbi.min.css" type="text/css" /><link rel="stylesheet" href="/corehtml/pmc/css/3.3/pmc.min.css" type="text/css" /><script type="text/javascript">if (typeof jQuery === "undefined") document.write('[script type="text/javascript" src="/corehtml/pmc/jig/1.11/js/jig.min.js"][/script]'.replace(/\[/g,String.fromCharCode(60)).replace(/\]/g,String.fromCharCode(62)));</script><script type="text/javascript"></script><script type="text/javascript" src="/corehtml/pmc/js/common.min.js"></script><script type="text/javascript" src="/corehtml/pmc/js/NcbiTagServer.min.js"></script><script type="text/javascript" src="/corehtml/pmc/js/large-obj-scrollbars.min.js"></script><script type="text/javascript">window.name="mainwindow";</script><style type="text/css">.pmc-wm {background:transparent repeat-y top left;background-image:url(/corehtml/pmc/pmcgifs/wm-nobrand.png);background-size: auto, contain}</style><style type="text/css">.print-view{display:block}</style><link rel="stylesheet" type="text/css" href="/pmcc/css/header.css"><link rel="stylesheet" type="text/css" href="/pmcc/css/footer.css"><link rel="stylesheet" type="text/css" href="/pmcc/css/sample_alt.css"><link rel="stylesheet" type="text/css" href="/pmcc/css/view-switcher.css"><link rel="stylesheet" type="text/css" href="/pmcc/css/searchbar.css"><meta name="keywords" content="PMCC ; PMC ; PMC Canada ; digital archive ; medical research ; health sciences ; life sciences ; PubMed Central ; PMC ; Canada Institute for Scientific and Technical Information ; CISTI ; NRC-CISTI ; National Research Council Canada ; NRC ; Canadian Institutes of Health Research ; CIHR ; National Library of Medicine ; NLM ; Canadian research"><meta name="dc.creator" content="Government of Canada. National Research Council Canada"><meta name="dcterms.issued" scheme="W3CDTF" content="2011-04-26"><meta name="description" content="PubMed Central Canada (PMC Canada) provides free access to a stable and permanent online digital archive of full-text, peer-reviewed health and life sciences research publications. It builds on PubMed Central (PMC), the U.S. National Institutes of Health (NIH) free digital archive of biomedical and life sciences journal literature and is a member of the broader PMC International (PMCI) network of e-repositories."><meta name="dcterms.modifed" scheme="W3CDTF" content="2011-04-26"><meta name="dc.subject" scheme="gccore" content="medical research ; health sciences ; life sciences ; digital collections ; electronic information ; scientific information ;  information dissemination"><meta name="owner" content="Morgenroth, Karen"><script type="text/javascript">
+	
+	
+	function doSearch(context) {
+	//	alert("In do Search" + context);
+		    var thisForm = document.forms['pmccsearch'];
+		    var entrez_script_URL= 'http://www.ncbi.nlm.nih.gov/sites/entrez';
+		    if (thisForm.cmd.value == 'search') {
+		        if (thisForm.term.value.replace(/\s+/g,'').length > 0) {
+            if (thisForm.elements['search-option'][0].checked) { 
+            	
+            	SolrSearch(context);
+//                var newUrl = entrez_script_URL +
+//                    '?EntrezSystem2.PEntrez.Pmc.Pmc_LimitsTab.LimitsOff=true&db=pmc&cmd=search&term=' +
+//                    thisForm.term.value;
+//                    location.href  = newUrl;
+		            }
+		            else {
+		                //return true;
+		                Search(context);
+		                return false;
+		            }
+		        }
+		        return false;
+		    }
+		
+		    return true;
+		}
+		
+		function Search(context) {
+		    var thisForm = document.forms['pmccsearch'];
+		    var selectedBox = getCheckedRadioBox();
+		    var url = context+'/journals/' + '?term='+thisForm.term.value + '&search-option=' + selectedBox ;
+		    if (url.length != 0) {
+		        location.href = url;
+		    }
+		}
+	
+		function SolrSearch(context) {
+		    var thisForm = document.forms['pmccsearch'];
+		    var selectedBox = getCheckedRadioBox();
+		    var url = context+'/solr/' + '?term=' + thisForm.term.value + '&search-option=' + selectedBox;
+		    if (url.length != 0) {
+		        location.href = url;
+		    }
+		}
+	
+		function getCheckedRadioBox() {
+				    var radios = document.getElementsByTagName('input');		    
+			var value = "";
+			for (var i = 0; i < radios.length; i++) {
+			    if (radios[i].type === 'radio' && radios[i].checked) {
+			        // get value, set checked flag or do whatever you need to
+			        value = radios[i].value;    
+			    }
+			}
+			return value;
+		}
+		
+		function Go(cmd) 
+		{
+			if(cmd == '' || cmd == 'nextPage' || cmd == 'prevPage') // citation navigation
+			{
+				var form = document.forms['frmQueryBox'];
+				if(form.textpage.value == '')
+				{
+					form.inputpage.value = 1;
+				}
+				if(cmd == 'nextPage')
+				{
+					form.inputpage.value = parseInt(form.textpage.value) + 1;
+				}
+				else if(cmd == 'prevPage')
+				{
+					form.inputpage.value = parseInt(form.textpage.value) - 1;
+				}
+			//alert('Call for paged citation navigation - page ' + document.forms['frmQueryBox'].inputpage.value);
+				var url = '?page=' + document.forms['frmQueryBox'].inputpage.value;
+				form.inputpageFlag = 0;
+				//document.forms['frmQueryBox'].submit();
+			//alert('Request URL: ' + url);
+				location.href = url;
+			}
+			else // Search form, for now
+			{
+			    var collpattern = new RegExp('^Coll.+');
+				if(cmd == '7')
+			    {
+			    	var url = 'collections/';
+			    //	alert('Call for Collections');
+			    }
+			    else if(collpattern.test(cmd))
+			    {
+			    	var url = cmd.replace('Coll', '') + "/";
+			    //	alert('Call for Collections');
+			    }
+			    else
+			    {
+			    	if(cmd == '6')
+			    	{
+			    		var url = '?filter=new' + '&titles=all';
+			    	}
+			    	else
+			    	{
+			    		var url = '?filter=t' + cmd + '&titles=all';
+			    	}
+	//		    	var url = 'journals/' + '?filter=t' + cmd + '&titles=all';
+			    //	alert('Call for others');
+			    }
+			    if (url.length != 0) {
+			        location.href = url;
+			    }		
+			}
+    	}
+		
+		function submit(cmd) {
+		    var thisForm = document.forms['pmccsearch'];
+		    var url = '/pmcc' +cmd;
+		    if (url.length != 0) {
+		        location.href = url;
+		    }
+		}
+		</script><script type="text/javascript">
+						
+						  var _gaq = _gaq || [];
+						  _gaq.push(['_setAccount', 'UA-19497356-7']);
+						  _gaq.push(['_trackPageview']);
+						
+						  (function() {
+						    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+						    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+						    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+						  })();
+						
+						</script></head><body class="localbody"><div><img id="background" src="/pmcc/img/banner_gradient_background.jpg" alt="PMCC"><img id="front" usemap="#pmclogo" src="/pmcc/img/logo_transp.gif" alt="PMCC"><map name="pmclogo"><area shape="rect" coords="0,-4,206,70" href="/pmcc" alt="PMCC"></map></div><table id="header"><tr id="banner"><td id="headernav"><a class="headerlink" href="/pmcc/">Home</a>
+							|
+							<a class="headerlink" href="/pmcc/static/aboutUs/">About</a>
+							|
+							<a class="headerlink" href="/pmcc/journals/">Journals</a>
+							|
+							<a class="headerlink" href="/pmcc/static/manuFaqs/">Submit</a>
+							|
+							<a class="headerlink" href="/pmcc/static/contactUs/">Contact Us</a>
+							|
+							<a class="headerlink" href="/pmcc/articles/PMC1/?lang=fr" title="French (Canada)">Français</a></td></tr></table><form id="pmccsearch" name="pmccsearch" method="get" onsubmit="return doSearch('/pmcc');" action=""><input name="tabindex" type="hidden" value="1"><input name="cmd" type="hidden" value="search"><div id="searchfield"><table id="searchboxtable"><tr><td id="searchboxtd"><label id="searchboxlabel" for="searchbox" class="hidden">Enter Your Search:</label><input id="searchbox" type="text" name="term" value=""><br><a class="sublink" href="/pmcc/static/advHelp">Search tips</a></td><td id="searchradio"><fieldset class="fieldsetremove"><legend class="legendremove">Search criteria</legend><input id="search-option-1" name="search-option" type="radio" value="articles">&nbsp;<label for="search-option-1">Articles</label><br><input id="search-option-2" name="search-option" type="radio" value="journals" checked><label for="search-option-2">&nbsp;Journal titles</label></fieldset></td><td id="searchbuttontd"><input id="searchbutton" name="search" type="submit" value="Search"><br></td><td><a id="advancedlink" href="/pmcc/solr/adv/">Advanced</a></td></tr></table></div></form><div class="pmccexception"><div class="content-area-block-body"><h1 class="banner-color1 banner-text banner-title">Page not available</h1></div></div><div class="pmccexception"><div class="content-area-block-body"><br><br><br><br>The web page address (URL) that you used may be incorrect. It specifies a non-existent article ID.<br><br>URL: &nbsp;http://pubmedcentralcanada.ca/pmcc/articles/PMC1/?lang=en-ca<br><br><br><br></div></div><div class="pmccexception"><div class="content-area-block-body"></div></div><hr><table cellpadding="0" cellspacing="3" width="80%" border="0" id="footertable"><tr><td class="content-cell"><div class="footer-section" id="__footer"><div class="footer-link" id="fp-footer"><div><a class="link" href="mailto:helpdesk@pmccanada.ca">Contact Us</a>
+									|
+									<a class="link" href="/pmcc/static/copyright/">Copyright</a>
+									|
+									<a class="link" href="/pmcc/static/disclaimer/">Disclaimer</a></div><br><div style="background-color: #EFEFEF; padding: 8px 0px 8px 10px; font-size: 10px; font-family: verdana, geneva, helvetica; color: #6C6A6A;">PubMed Central Canada is a service of the <a href="http://www.cihr-irsc.gc.ca/e/193.html">Canadian Institutes of Health Research</a> (CIHR) working in partnership with the National Research Council's <a href="http://www.nrc-cnrc.gc.ca/eng/publications/nsl/index.html">national science library</a> in cooperation with the <a href="http://www.ncbi.nlm.nih.gov">National Center for Biotechnology Information</a> at the <a href="http://www.nlm.nih.gov">U.S. National Library of Medicine</a>(NCBI/NLM). It includes content provided to the <a href="http://www.ncbi.nlm.nih.gov/pmc/about/pmci.html">PubMed Central International archive</a> by participating publishers.</div></div></div></td></tr></table></body></html>; line: 1, column: 2]
+15:51:05.701 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC1000/?null
+15:51:21.287 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC2000/?null
+15:51:23.711 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000/?null
+15:51:26.023 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC4000/?null
+15:51:27.919 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC5000/?null
+15:51:29.679 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC6000/?null
+15:51:31.383 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC7000/?null
+15:51:33.567 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC8000/?null
+15:51:35.343 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC9000/?null
+15:51:36.927 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC10000/?null
+15:51:38.502 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC11000/?null
+15:51:40.318 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC12000/?null
+15:52:44.364 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC13000/?null
+15:52:52.471 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+15:53:00.183 WARN  c.l.c.u.n.LemonHttpClient- spide url :http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null use 7 s
+15:53:26.394 ERROR c.l.c.JsonMapper- [error] json -> object Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: java.io.StringReader@722787b5; line: 1, column: 2]

@@ -1,0 +1,863 @@
+15:11:06.815 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:11:06.824 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1135) already exists.
+15:11:08.560 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:11:08.561 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1140) already exists.
+15:12:15.277 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:12:15.280 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1135) already exists.
+15:12:15.473 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:12:15.473 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1140) already exists.
+15:12:15.586 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:12:15.586 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1145) already exists.
+15:12:15.702 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:12:15.702 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1150) already exists.
+15:12:15.812 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:12:15.813 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1155) already exists.
+15:12:15.916 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:12:15.916 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1160) already exists.
+15:14:04.333 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:04.336 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1135) already exists.
+15:14:04.554 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:04.554 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1140) already exists.
+15:14:04.695 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:04.696 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1145) already exists.
+15:14:04.819 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:04.819 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1150) already exists.
+15:14:04.932 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:04.932 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1155) already exists.
+15:14:05.038 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:05.039 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1160) already exists.
+15:14:07.512 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:07.512 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1136) already exists.
+15:14:07.614 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:07.615 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1141) already exists.
+15:14:07.715 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:07.715 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1146) already exists.
+15:14:07.819 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:07.819 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1151) already exists.
+15:14:07.916 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:07.916 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1156) already exists.
+15:14:08.015 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:08.015 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1161) already exists.
+15:14:42.016 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:42.018 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1135) already exists.
+15:14:42.232 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:42.232 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1140) already exists.
+15:14:42.372 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:42.372 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1145) already exists.
+15:14:42.513 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:42.513 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1150) already exists.
+15:14:42.622 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:42.622 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1155) already exists.
+15:14:42.724 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:42.724 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1160) already exists.
+15:14:45.261 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:45.261 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1136) already exists.
+15:14:45.357 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:45.357 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1141) already exists.
+15:14:45.462 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:45.462 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1146) already exists.
+15:14:45.583 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:45.583 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1151) already exists.
+15:14:45.682 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:45.682 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1156) already exists.
+15:14:45.780 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:45.780 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1161) already exists.
+15:14:49.239 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:49.239 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1137) already exists.
+15:14:49.338 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:49.338 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1142) already exists.
+15:14:49.441 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:49.441 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1147) already exists.
+15:14:49.544 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:49.544 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1152) already exists.
+15:14:49.647 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:49.647 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1157) already exists.
+15:14:49.747 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:14:49.748 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1162) already exists.
+15:17:23.127 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:23.129 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1135) already exists.
+15:17:23.332 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:23.332 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1140) already exists.
+15:17:23.446 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:23.446 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1145) already exists.
+15:17:23.563 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:23.563 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1150) already exists.
+15:17:23.670 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:23.670 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1155) already exists.
+15:17:23.775 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:23.775 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1160) already exists.
+15:17:26.384 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:26.385 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1136) already exists.
+15:17:26.498 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:26.498 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1141) already exists.
+15:17:26.598 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:26.598 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1146) already exists.
+15:17:26.694 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:26.694 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1151) already exists.
+15:17:26.787 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:26.787 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1156) already exists.
+15:17:26.880 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:26.880 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1161) already exists.
+15:17:30.375 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:30.375 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1137) already exists.
+15:17:30.506 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:30.506 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1142) already exists.
+15:17:30.604 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:30.604 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1147) already exists.
+15:17:30.721 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:30.722 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1152) already exists.
+15:17:30.826 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:30.826 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1157) already exists.
+15:17:30.930 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:30.930 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1162) already exists.
+15:17:34.411 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:34.411 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1138) already exists.
+15:17:34.510 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:34.510 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1143) already exists.
+15:17:34.605 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:34.605 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1148) already exists.
+15:17:34.708 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:34.708 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1153) already exists.
+15:17:34.805 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:34.805 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1158) already exists.
+15:17:35.469 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:35.469 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1163) already exists.
+15:17:38.326 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:38.326 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1139) already exists.
+15:17:38.452 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:38.452 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1144) already exists.
+15:17:38.572 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:38.572 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1149) already exists.
+15:17:38.686 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:38.687 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1154) already exists.
+15:17:38.804 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+15:17:38.804 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(1159) already exists.
+16:29:24.220 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+16:29:24.224 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(40) already exists.
+16:29:26.290 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+16:29:26.290 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(45) already exists.
+16:29:28.230 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+16:29:28.230 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(50) already exists.
+16:29:30.241 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+16:29:30.242 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(55) already exists.
+16:30:42.728 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+16:30:42.730 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(35) already exists.
+16:30:44.814 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+16:30:44.814 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(40) already exists.
+16:30:47.061 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+16:30:47.062 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(31) already exists.
+16:30:48.821 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+16:30:48.821 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(45) already exists.
+16:30:51.350 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+16:30:51.350 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(36) already exists.
+16:57:12.676 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:12.679 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:12.843 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:12.844 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:12.976 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:12.976 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:13.100 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:13.100 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:13.216 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:13.216 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:13.330 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:13.330 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:13.438 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:13.438 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:13.554 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:13.555 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:13.679 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:13.679 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:13.794 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:13.794 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:13.904 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:13.904 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:14.008 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:14.008 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:14.116 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:14.117 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:14.219 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:14.219 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:14.317 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:14.317 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:14.458 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:14.458 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:14.561 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:14.561 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:14.663 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:14.663 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:14.765 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:14.765 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:14.865 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:14.865 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:14.991 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:14.991 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:15.091 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:15.091 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:15.191 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:15.191 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:15.290 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:15.290 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:15.394 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:15.394 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:15.495 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:15.495 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:15.594 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:15.594 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:15.700 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:15.700 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:15.813 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:15.813 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:15.932 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:15.932 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:16.043 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:16.044 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:16.050 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:16.050 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:16.144 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:16.144 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:16.157 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:16.157 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:16.254 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:16.255 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:16.268 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:16.268 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:16.364 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:16.364 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:16.375 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:16.375 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:16.479 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:16.479 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:16.484 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:16.484 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:16.576 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:16.576 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:16.587 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:16.587 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:16.674 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:16.674 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:16.689 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:16.689 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:16.767 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:16.767 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:16.796 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:16.796 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:16.865 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:16.865 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:16.896 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:16.896 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+16:57:16.961 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+16:57:16.961 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+17:15:17.836 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:17.838 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(35) already exists.
+17:15:17.992 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:17.992 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(40) already exists.
+17:15:18.094 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:18.095 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(45) already exists.
+17:15:18.197 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:18.197 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(50) already exists.
+17:15:18.302 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:18.302 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(55) already exists.
+17:15:18.400 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:18.400 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(60) already exists.
+17:15:18.497 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:18.497 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(65) already exists.
+17:15:18.595 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:18.595 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(70) already exists.
+17:15:18.693 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:18.693 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(75) already exists.
+17:15:18.793 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:18.793 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(80) already exists.
+17:15:18.891 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:18.891 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(85) already exists.
+17:15:18.990 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:18.990 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(90) already exists.
+17:15:19.087 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:19.088 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(95) already exists.
+17:15:19.185 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:19.185 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(100) already exists.
+17:15:19.285 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:19.285 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(105) already exists.
+17:15:19.386 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:19.386 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(110) already exists.
+17:15:19.497 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:19.497 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(115) already exists.
+17:15:19.597 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:19.597 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(120) already exists.
+17:15:19.696 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:19.696 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(125) already exists.
+17:15:19.799 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:19.799 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(130) already exists.
+17:15:19.894 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:19.894 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(135) already exists.
+17:15:19.995 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:19.995 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(140) already exists.
+17:15:20.093 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:20.093 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(145) already exists.
+17:15:20.193 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:20.193 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(150) already exists.
+17:15:20.289 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:20.289 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(155) already exists.
+17:15:20.389 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:20.389 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(160) already exists.
+17:15:20.490 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:20.490 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(165) already exists.
+17:15:20.586 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:20.587 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(170) already exists.
+17:15:20.683 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:20.684 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(175) already exists.
+17:15:20.781 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:15:20.781 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(180) already exists.
+17:17:02.359 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:17:02.361 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(900) already exists.
+17:17:02.519 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:17:02.519 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(905) already exists.
+17:17:02.631 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:17:02.632 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(910) already exists.
+17:17:02.744 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:17:02.745 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(915) already exists.
+17:17:02.846 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:17:02.847 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(920) already exists.
+17:17:02.947 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:17:02.947 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(925) already exists.
+17:17:03.032 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:17:03.032 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(930) already exists.
+17:17:03.128 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:17:03.129 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(935) already exists.
+17:17:03.213 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:17:03.213 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(940) already exists.
+17:17:03.298 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:17:03.298 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(945) already exists.
+17:18:13.882 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:18:13.884 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(900) already exists.
+17:18:14.033 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:18:14.033 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(905) already exists.
+17:18:14.140 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:18:14.140 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(910) already exists.
+17:18:14.247 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:18:14.247 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(915) already exists.
+17:18:14.350 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:18:14.351 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(920) already exists.
+17:18:14.453 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:18:14.453 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(925) already exists.
+17:18:14.539 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:18:14.539 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(930) already exists.
+17:18:14.623 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:18:14.623 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(935) already exists.
+17:18:14.706 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:18:14.706 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(940) already exists.
+17:18:14.791 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:18:14.791 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(945) already exists.
+17:19:02.996 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:19:03.000 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(900) already exists.
+17:19:03.372 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:19:03.372 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(905) already exists.
+17:19:03.669 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:19:03.669 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(910) already exists.
+17:19:03.895 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:19:03.895 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(915) already exists.
+17:19:04.144 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:19:04.144 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(920) already exists.
+17:19:54.762 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:19:54.764 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(900) already exists.
+17:19:55.625 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:19:55.625 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(905) already exists.
+17:19:55.796 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:19:55.796 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(910) already exists.
+17:19:55.980 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:19:55.980 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(915) already exists.
+17:19:56.143 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:19:56.143 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(920) already exists.
+17:19:56.301 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:19:56.301 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(925) already exists.
+17:19:56.387 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:19:56.388 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(930) already exists.
+17:19:56.472 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:19:56.473 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(935) already exists.
+17:19:56.559 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:19:56.559 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(940) already exists.
+17:19:56.648 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:19:56.648 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(945) already exists.
+17:20:38.731 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:20:38.733 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(900) already exists.
+17:20:38.895 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:20:38.895 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(905) already exists.
+17:20:38.998 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:20:38.998 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(910) already exists.
+17:20:39.105 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:20:39.105 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(915) already exists.
+17:20:39.204 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:20:39.205 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(920) already exists.
+17:20:39.301 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:20:39.302 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(925) already exists.
+17:20:39.386 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:20:39.386 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(930) already exists.
+17:20:39.468 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:20:39.469 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(935) already exists.
+17:20:39.552 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:20:39.552 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(940) already exists.
+17:20:39.636 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:20:39.636 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(945) already exists.
+17:21:40.296 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:21:40.299 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(900) already exists.
+17:21:40.452 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:21:40.452 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(905) already exists.
+17:21:40.561 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:21:40.561 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(910) already exists.
+17:21:40.671 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:21:40.671 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(915) already exists.
+17:21:40.782 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:21:40.782 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(920) already exists.
+17:21:40.884 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:21:40.885 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(925) already exists.
+17:21:40.973 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:21:40.973 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(930) already exists.
+17:21:41.060 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:21:41.060 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(935) already exists.
+17:21:41.158 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:21:41.158 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(940) already exists.
+17:21:41.244 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:21:41.244 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(945) already exists.
+17:24:45.820 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:24:45.823 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(900) already exists.
+17:24:45.973 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:24:45.974 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(905) already exists.
+17:24:46.082 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:24:46.082 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(910) already exists.
+17:24:46.222 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:24:46.222 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(915) already exists.
+17:24:46.328 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:24:46.328 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(920) already exists.
+17:24:46.438 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:24:46.438 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(925) already exists.
+17:24:46.526 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:24:46.526 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(930) already exists.
+17:24:46.610 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:24:46.610 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(935) already exists.
+17:24:46.698 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:24:46.698 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(940) already exists.
+17:24:46.784 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:24:46.784 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(945) already exists.
+17:24:49.087 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:24:49.087 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(901) already exists.
+17:24:49.191 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:24:49.191 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(906) already exists.
+17:24:49.288 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:24:49.288 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(911) already exists.
+17:24:49.389 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:24:49.389 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(916) already exists.
+17:24:49.486 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:24:49.486 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(921) already exists.
+17:24:49.583 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:24:49.583 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(926) already exists.
+17:24:49.666 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:24:49.666 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(931) already exists.
+17:24:49.748 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:24:49.748 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(936) already exists.
+17:24:49.831 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:24:49.831 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(941) already exists.
+17:24:49.925 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:24:49.926 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(946) already exists.
+17:26:59.774 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:26:59.777 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(930) already exists.
+17:26:59.868 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:26:59.868 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(935) already exists.
+17:26:59.956 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:26:59.956 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(940) already exists.
+17:27:00.045 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:27:00.045 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(945) already exists.
+17:28:33.111 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:28:33.113 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(930) already exists.
+17:28:33.214 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:28:33.214 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(935) already exists.
+17:28:33.303 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:28:33.303 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(940) already exists.
+17:28:33.393 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:28:33.393 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(945) already exists.
+17:28:36.512 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:28:36.512 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(931) already exists.
+17:28:36.610 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:28:36.610 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(936) already exists.
+17:28:36.698 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:28:36.698 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(941) already exists.
+17:28:36.783 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:28:36.784 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(946) already exists.
+17:28:40.502 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:28:40.502 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(932) already exists.
+17:28:40.592 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:28:40.593 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(937) already exists.
+17:28:40.679 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:28:40.679 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(942) already exists.
+17:28:40.763 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:28:40.764 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(947) already exists.
+17:28:44.499 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:28:44.499 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(928) already exists.
+17:28:44.587 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:28:44.587 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(933) already exists.
+17:28:44.676 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:28:44.676 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(938) already exists.
+17:28:44.761 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:28:44.761 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(943) already exists.
+17:28:44.850 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:28:44.850 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(948) already exists.
+17:28:48.498 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:28:48.499 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(929) already exists.
+17:28:48.586 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:28:48.586 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(934) already exists.
+17:28:48.671 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:28:48.671 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(939) already exists.
+17:28:48.754 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:28:48.754 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(944) already exists.
+17:28:48.841 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:28:48.841 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(949) already exists.
+17:39:25.613 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:39:25.615 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(930) already exists.
+17:39:25.838 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:39:25.838 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(935) already exists.
+17:39:26.063 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:39:26.063 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(940) already exists.
+17:39:26.290 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:39:26.290 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(945) already exists.
+17:39:28.999 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:39:28.999 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(931) already exists.
+17:39:29.278 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:39:29.278 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(936) already exists.
+17:39:29.551 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:39:29.551 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(941) already exists.
+17:39:29.823 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:39:29.823 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(946) already exists.
+17:39:32.976 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:39:32.976 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(932) already exists.
+17:39:33.243 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:39:33.243 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(937) already exists.
+17:39:33.516 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:39:33.516 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(942) already exists.
+17:39:33.783 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:39:33.783 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(947) already exists.
+17:39:36.986 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:39:36.986 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(928) already exists.
+17:39:37.256 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:39:37.256 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(933) already exists.
+17:39:37.525 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:39:37.526 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(938) already exists.
+17:39:37.799 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:39:37.800 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(943) already exists.
+17:39:38.079 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:39:38.079 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(948) already exists.
+17:39:40.878 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:39:40.878 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(929) already exists.
+17:39:41.083 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:39:41.083 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(934) already exists.
+17:39:41.260 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:39:41.260 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(939) already exists.
+17:39:41.442 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:39:41.442 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(944) already exists.
+17:39:41.648 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:39:41.649 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(949) already exists.
+17:40:55.871 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:40:55.874 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(930) already exists.
+17:40:56.145 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:40:56.145 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(935) already exists.
+17:40:57.095 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:40:57.095 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(940) already exists.
+17:40:57.326 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:40:57.326 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(945) already exists.
+17:40:59.123 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:40:59.123 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(931) already exists.
+17:40:59.318 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:40:59.318 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(936) already exists.
+17:40:59.549 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:40:59.549 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(941) already exists.
+17:40:59.772 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+17:40:59.772 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(946) already exists.
+18:04:19.344 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+18:04:19.347 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(931) already exists.
+18:04:19.437 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+18:04:19.437 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(936) already exists.
+18:04:19.524 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+18:04:19.524 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(941) already exists.
+18:04:19.606 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+18:04:19.607 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(946) already exists.
+18:04:23.345 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+18:04:23.346 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(932) already exists.
+18:04:23.432 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+18:04:23.432 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(937) already exists.
+18:04:23.520 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+18:04:23.520 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(942) already exists.
+18:04:23.604 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+18:04:23.604 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(947) already exists.
+18:04:27.256 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+18:04:27.256 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(928) already exists.
+18:04:27.337 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+18:04:27.337 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(933) already exists.
+18:04:27.419 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+18:04:27.420 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(938) already exists.
+18:04:27.501 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+18:04:27.501 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(943) already exists.
+18:04:27.585 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+18:04:27.586 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(948) already exists.
+18:04:31.249 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+18:04:31.249 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(929) already exists.
+18:04:31.339 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+18:04:31.339 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(934) already exists.
+18:04:31.422 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+18:04:31.422 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(939) already exists.
+18:04:31.508 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+18:04:31.508 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(944) already exists.
+18:04:31.591 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+18:04:31.591 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_5qvw05v9bd1jw1fl381s3u4pk"
+  详细：Key (pmc_id)=(949) already exists.

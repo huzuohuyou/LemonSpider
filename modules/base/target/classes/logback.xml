@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<!--  all appenders -->
+	<appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+	    <encoder>
+	        <pattern>%date{HH:mm:ss.SSS} %-5level %logger{5}: %msg%n</pattern>
+	        <charset>UTF-8</charset> 此处设置字符集
+	    </encoder>
+	</appender>
+	
+	<appender name="rollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>logs/log.txt</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>logs/log.%d{yyyy-MM-dd}.txt</fileNamePattern>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%date{HH:mm:ss.SSS} %-5level %logger{5}- %msg%n</pattern>
+			<!-- <pattern>%date{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern> -->
+			<charset>UTF-8</charset> <!-- 此处设置字符集 -->
+		</encoder>
+	</appender>
+	
+	<appender name="requestLogFile" class="ch.qos.logback.core.rolling.RollingFileAppender"> 	 
+	 	<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">  
+            <fileNamePattern>logs/request.%d{yyyy-MM-dd}.log</fileNamePattern>  
+            <maxHistory>30</maxHistory>  
+        </rollingPolicy> 
+	 	<encoder>
+	 		<pattern>%date{HH:mm:ss.SSS} %-5level %logger{5} %n%msg%n%ex{full}</pattern>
+	 		<charset>UTF-8</charset> <!-- 此处设置字符集 -->
+	 	</encoder>
+	</appender> 
+	
+	<!--  all loggers 
+	运行期间，会自动根据是在eclipse中运行，启用logback-test.xml；否则使用logback.xml。
+	logback 里只有自己项目和sqltiming是info的。其它都是WARN；且不再往控制台输出了。
+	logback-test 都是INFO的，自己项目可以根据需要调整成DEBUG或INFO（默认已是INFO了）；同时输出到控制台和文件。
+	-->
+
+	<!-- 在logback.xml里这里不能修改 -->
+	<logger name="com.lemon" level="INFO" />
+
+	<logger name="com.lemon.springmvc" level="ERROR" />
+
+	<logger name="jdbc.sqltiming" level="INFO"/>
+	<logger name="@@@Monitor@@@" level="INFO" additivity="false"> 
+	 	<appender-ref ref="requestLogFile" />
+	</logger>
+	
+	<root level="WARN">
+	    <!-- <appender-ref ref="console" /> -->
+	    <appender-ref ref="rollingFile" />
+	</root>
+</configuration>

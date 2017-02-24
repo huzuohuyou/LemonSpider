@@ -1,0 +1,36 @@
+09:02:27.787 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+09:02:32.830 WARN  c.l.c.u.n.LemonHttpClient- spide url :http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null use 5 s
+09:18:00.976 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+09:20:01.237 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+09:23:18.609 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+09:23:20.667 WARN  c.l.c.u.n.LemonHttpClient- spide url :http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null use 2 s
+09:38:05.759 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+09:42:05.362 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+09:42:09.741 WARN  c.l.c.u.n.LemonHttpClient- spide url :http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null use 4 s
+09:43:50.497 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+09:44:46.295 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+10:18:29.569 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+10:18:33.011 WARN  c.l.c.u.n.LemonHttpClient- spide url :http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null use 3 s
+10:22:14.086 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+10:22:16.296 WARN  c.l.c.u.n.LemonHttpClient- spide url :http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null use 2 s
+10:22:57.350 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+10:27:19.456 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+10:33:38.519 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+10:33:45.040 WARN  c.l.c.u.n.LemonHttpClient- spide url :http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null use 6 s
+10:39:50.900 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+10:39:53.290 WARN  c.l.c.u.n.LemonHttpClient- spide url :http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null use 2 s
+10:42:00.374 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+10:42:02.449 WARN  c.l.c.u.n.LemonHttpClient- spide url :http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null use 2 s
+10:44:51.825 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+10:46:14.198 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+10:46:32.286 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+10:46:47.356 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+10:47:09.523 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+10:48:00.738 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+10:48:40.059 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+10:59:16.795 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+10:59:17.400 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+11:04:22.101 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null
+11:04:24.202 WARN  c.l.c.u.n.LemonHttpClient- spide url :http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/?null use 2 s
+11:06:08.064 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/table/t1-ehi-2010-087/?null
+11:08:21.811 INFO  c.l.c.u.n.LemonHttpClient- spider url: http://pubmedcentralcanada.ca/pmcc/articles/PMC3000000/table/f1-ehi-2010-087/?null

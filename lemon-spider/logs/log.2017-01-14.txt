@@ -1,0 +1,426 @@
+<<<<<<< HEAD
+14:55:33.429 ERROR c.l.c.t.SpringCtx- get Bean
+java.lang.NullPointerException: null
+	at com.lemon.commons.tools.SpringCtx.getBean(SpringCtx.java:43) ~[classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.<init>(QuestionSpider.java:40) [classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.main(QuestionSpider.java:35) [classes/:na]
+14:56:07.983 ERROR c.l.c.t.SpringCtx- get Bean
+java.lang.NullPointerException: null
+	at com.lemon.commons.tools.SpringCtx.getBean(SpringCtx.java:43) ~[classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.<init>(QuestionSpider.java:41) [classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.main(QuestionSpider.java:35) [classes/:na]
+15:26:59.595 ERROR c.l.c.t.SpringCtx- get Bean
+java.lang.NullPointerException: null
+	at com.lemon.commons.tools.SpringCtx.getBean(SpringCtx.java:43) ~[classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.<init>(QuestionSpider.java:40) [classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.main(QuestionSpider.java:35) [classes/:na]
+15:26:59.599 ERROR c.l.c.t.SpringCtx- get Bean
+java.lang.NullPointerException: null
+	at com.lemon.commons.tools.SpringCtx.getBean(SpringCtx.java:43) ~[classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.<init>(QuestionSpider.java:41) [classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.main(QuestionSpider.java:35) [classes/:na]
+15:27:43.673 ERROR c.l.c.t.SpringCtx- get Bean
+java.lang.NullPointerException: null
+	at com.lemon.commons.tools.SpringCtx.getBean(SpringCtx.java:43) ~[classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.<init>(QuestionSpider.java:40) [classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.main(QuestionSpider.java:35) [classes/:na]
+15:27:43.678 ERROR c.l.c.t.SpringCtx- get Bean
+java.lang.NullPointerException: null
+	at com.lemon.commons.tools.SpringCtx.getBean(SpringCtx.java:43) ~[classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.<init>(QuestionSpider.java:41) [classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.main(QuestionSpider.java:35) [classes/:na]
+15:28:53.744 ERROR c.l.c.t.SpringCtx- get Bean
+java.lang.NullPointerException: null
+	at com.lemon.commons.tools.SpringCtx.getBean(SpringCtx.java:43) ~[classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.<init>(QuestionSpider.java:40) [classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.main(QuestionSpider.java:35) [classes/:na]
+15:28:53.750 ERROR c.l.c.t.SpringCtx- get Bean
+java.lang.NullPointerException: null
+	at com.lemon.commons.tools.SpringCtx.getBean(SpringCtx.java:43) ~[classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.<init>(QuestionSpider.java:41) [classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.main(QuestionSpider.java:35) [classes/:na]
+15:30:16.957 ERROR c.l.c.t.SpringCtx- get Bean
+java.lang.NullPointerException: null
+	at com.lemon.commons.tools.SpringCtx.getBean(SpringCtx.java:43) ~[classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.<init>(QuestionSpider.java:40) [classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.main(QuestionSpider.java:35) [classes/:na]
+15:30:16.961 ERROR c.l.c.t.SpringCtx- get Bean
+java.lang.NullPointerException: null
+	at com.lemon.commons.tools.SpringCtx.getBean(SpringCtx.java:43) ~[classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.<init>(QuestionSpider.java:41) [classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.main(QuestionSpider.java:35) [classes/:na]
+15:30:38.715 ERROR c.l.c.t.SpringCtx- get Bean
+java.lang.NullPointerException: null
+	at com.lemon.commons.tools.SpringCtx.getBean(SpringCtx.java:43) ~[classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.<init>(QuestionSpider.java:40) [classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.main(QuestionSpider.java:35) [classes/:na]
+15:30:38.720 ERROR c.l.c.t.SpringCtx- get Bean
+java.lang.NullPointerException: null
+	at com.lemon.commons.tools.SpringCtx.getBean(SpringCtx.java:43) ~[classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.<init>(QuestionSpider.java:41) [classes/:na]
+	at com.lemon.tools.spider.question.QuestionSpider.main(QuestionSpider.java:35) [classes/:na]
+15:35:18.935 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: create table c.action_yun (action_id int4 not null, yun_id int8 not null)
+15:35:18.943 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+  位置：14
+15:35:18.943 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: create table c.course_group (id  serial not null, sequence Integer default 0, course_id int4 not null, group_id int4 not null, primary key (id))
+15:35:18.943 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+  位置：14
+15:35:18.944 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: create table c.dynamic_details (id  serial not null, content varchar(255), device varchar(255), remark varchar(255), title varchar(255), ts timestamp, type int4, uid int4, user_agent varchar(255), course_id int4, primary key (id))
+15:35:18.944 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+  位置：14
+15:35:18.944 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: create table c.dynamic_summary (id  serial not null, num int4, today_num int4, type int4, uid int4, update_time timestamp, primary key (id))
+15:35:18.944 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+  位置：14
+15:35:18.945 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: create table c.group_ (id  serial not null, classroom_ext varchar(255), classroom_no int4, create_time timestamp, enroll_year int4, group_name varchar(255), group_no varchar(255), group_size int4, max_group_size int4, school_identified Integer default 0, status int4, status_time timestamp, student_group_added int4, student_size int4, type int4, uuid varchar(255), creator_id int4 not null, school_id int4, primary key (id))
+15:35:18.945 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+  位置：14
+15:35:18.945 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: create table c.share_ (id  serial not null, begin_date timestamp, end_date timestamp, obj_id int4, target int4, type int4, uuid varchar(255), creator_id int4, primary key (id))
+15:35:18.945 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+  位置：14
+15:35:18.945 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: create table c.task_path (id  serial not null, ts timestamp, yid int8, cid int4 not null, nid int8 not null, primary key (id))
+15:35:18.945 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+  位置：14
+15:35:18.946 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: create table c.user_task (id  serial not null, cid int4, nid int8, status int4, ts timestamp, uid int4, primary key (id))
+15:35:18.946 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+  位置：14
+15:35:18.946 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: create table c.user_task_course (id  serial not null, cid int4, status int4, uid int4, primary key (id))
+15:35:18.946 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+  位置：14
+15:35:18.947 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: create table c.user_task_detail (id  serial not null, as_type int4, node_id int8, process int4, status int4, status_time timestamp, total int4, uid int4, watch_count int4, yid int8, primary key (id))
+15:35:18.947 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+  位置：14
+15:35:18.947 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: create table d.asset_day (id  serial not null, download_file int4, download_media int4, new_file int4, new_media int4, total_file int4, total_media int4, ts timestamp, ts_int int4, ts_str varchar(255), watch_media int4, primary key (id))
+15:35:18.947 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "d" does not exist
+  位置：14
+15:35:18.947 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: create table d.clazz_active (id  serial not null, clazz_id int4, ts timestamp, type int4, primary key (id))
+15:35:18.948 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "d" does not exist
+  位置：14
+15:35:18.948 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: create table d.clazz_day (id  serial not null, active_clazz int4, active_net_clazz int4, active_real_clazz int4, new_clazz int4, new_net_clazz int4, new_real_clazz int4, total int4, ts timestamp, ts_int int4, ts_str varchar(255), primary key (id))
+15:35:18.948 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "d" does not exist
+  位置：14
+15:35:18.949 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: create table d.media_watch_count (id  serial not null, android int4, android_stu int4, android_tea int4, ios int4, ios_stu int4, ios_tea int4, stu int4, tea int4, total int4, ts timestamp, ts_int int4, ts_str varchar(255), web int4, web_stu int4, web_tea int4, primary key (id))
+15:35:18.949 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "d" does not exist
+  位置：14
+15:35:18.950 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: create table d.media_watch_user (id  serial not null, android int4, android_stu int4, android_tea int4, ios int4, ios_stu int4, ios_tea int4, stu int4, tea int4, total int4, ts timestamp, ts_int int4, ts_str varchar(255), web int4, web_stu int4, web_tea int4, primary key (id))
+15:35:18.950 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "d" does not exist
+  位置：14
+15:35:18.950 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: create table d.user_active (id  serial not null, android int4, android_stu int4, android_tea int4, ios int4, ios_stu int4, ios_tea int4, stu int4, tea int4, total int4, ts timestamp, ts_int int4, ts_str varchar(255), web int4, web_stu int4, web_tea int4, primary key (id))
+15:35:18.950 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "d" does not exist
+  位置：14
+15:35:18.951 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: create table d.user_day (id  serial not null, android int4, android_stu int4, android_tea int4, ios int4, ios_stu int4, ios_tea int4, stu int4, tea int4, total int4, total_stu int4, total_tea int4, ts timestamp, ts_int int4, ts_str varchar(255), web int4, web_stu int4, web_tea int4, primary key (id))
+15:35:18.951 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "d" does not exist
+  位置：14
+15:35:19.371 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: create table yi.gua (id  serial not null, dialog varchar(255), gua int4, hint varchar(255), name varchar(255), x_dialog varchar(255), x_hint varchar(255), x_yi varchar(255), x_yuan varchar(255), y1 int4, y1_dialog varchar(255), y1_hint varchar(255), y1_yi varchar(255), y1_yuan varchar(255) not null, y2 int4, y2_dialog varchar(255), y2_hint varchar(255), y2_yi varchar(255), y2_yuan varchar(255), y3 int4, y3_dialog varchar(255), y3_hint varchar(255), y3_yi varchar(255), y3_yuan varchar(255), y4 int4, y4_dialog varchar(255), y4_hint varchar(255), y4_yi varchar(255), y4_yuan varchar(255), y5 int4, y5_dialog varchar(255), y5_hint varchar(255), y5_yi varchar(255), y5_yuan varchar(255), y6 int4, y6_dialog varchar(255), y6_hint varchar(255), y6_yi varchar(255), y6_yuan varchar(255), yi varchar(255), yuan varchar(255), primary key (id))
+15:35:19.371 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "yi" does not exist
+  位置：14
+15:35:19.372 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: create table yi.tuan (id  serial not null, dialog varchar(255), hint varchar(255), yi varchar(255), yuan varchar(255) not null, gua_id int4 not null, primary key (id))
+15:35:19.372 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "yi" does not exist
+  位置：14
+15:35:19.414 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: alter table c.action_yun add constraint FK_5hvymj57hnyl37l4oi8vkf0ij foreign key (yun_id) references m.yun
+15:35:19.414 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+15:35:19.415 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: alter table c.action_yun add constraint FK_o8s6nt8h83xtabrg9tccmix24 foreign key (action_id) references c.dynamic_details
+15:35:19.415 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+15:35:19.415 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: alter table c.course_group add constraint FK_mg3mc8feyd7dnmkkb4otx6d4d foreign key (course_id) references u.class
+15:35:19.415 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+15:35:19.415 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: alter table c.course_group add constraint FK_kmorw39tcd97e6lbwke0do8mk foreign key (group_id) references c.group_
+15:35:19.415 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+15:35:19.416 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: alter table c.dynamic_details add constraint FK_tj0m2pblk09a5lkyp46loljqo foreign key (course_id) references u.class
+15:35:19.416 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+15:35:19.416 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: alter table c.group_ add constraint FK_611qfqhb5br9d5rwe0ngfil8q foreign key (creator_id) references u.user_
+15:35:19.416 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+15:35:19.416 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: alter table c.group_ add constraint FK_dyb12ya19rhbure63blhwcrsi foreign key (school_id) references e.school
+15:35:19.416 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+15:35:19.417 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: alter table c.share_ add constraint FK_82h3igq7u3ve5q637y2mdd90h foreign key (creator_id) references u.user_
+15:35:19.417 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+15:35:19.417 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: alter table c.task_path add constraint FK_30rulnr5c3y6ciw2g6vjf6us foreign key (cid) references u.class
+15:35:19.417 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+15:35:19.417 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: alter table c.task_path add constraint FK_gchp16ycnm2x5p9iwjjnkisrd foreign key (nid) references m.path_node
+15:35:19.417 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+15:35:19.472 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: alter table u.class add constraint FK_hr9phdg7j172ybfahsonrn173 foreign key (subcribe_group_id) references c.group_
+15:35:19.472 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+15:35:19.496 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: alter table u.group_user_map add constraint FK_j9fd7g2rnyehpntbicp19ndn0 foreign key (group_id) references c.group_
+15:35:19.497 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+15:35:19.507 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: alter table u.teacher_studio add constraint FK_k7txss0qgbinn0dceve09bijw foreign key (group_id) references c.group_
+15:35:19.507 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "c" does not exist
+15:35:19.525 ERROR o.h.t.h.SchemaUpdate- HHH000388: Unsuccessful: alter table yi.tuan add constraint FK_280d7xkpxlxwdc4l7thcuhx0t foreign key (gua_id) references yi.gua
+15:35:19.525 ERROR o.h.t.h.SchemaUpdate- ERROR: schema "yi" does not exist
+=======
+13:41:41.354 ERROR c.l.c.f.FileUtil- 写入文本文件全部内容时错误
+java.io.FileNotFoundException: /Users/bob/Desktop/pubmed/pmcc/articles/300/PMC3000000/table/t1-ehi-2010-087.html (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_102]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[na:1.8.0_102]
+	at com.lemon.commons.file.FileUtil.writeAllText(FileUtil.java:315) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseRefTable(ParserPaper.java:403) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseFulltext(ParserPaper.java:358) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.run(ParserPaper.java:125) [classes/:na]
+	at com.lemon.tools.spider.pmc.Spider.main(Spider.java:17) [classes/:na]
+13:41:58.375 ERROR c.l.c.f.FileUtil- 写入文本文件全部内容时错误
+java.io.FileNotFoundException: /Users/bob/Desktop/pubmed/pmcc/articles/300/PMC3000000/table/t1-ehi-2010-087.html (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_102]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[na:1.8.0_102]
+	at com.lemon.commons.file.FileUtil.writeAllText(FileUtil.java:315) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseRefTable(ParserPaper.java:404) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseFulltext(ParserPaper.java:358) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.run(ParserPaper.java:125) [classes/:na]
+	at com.lemon.tools.spider.pmc.Spider.main(Spider.java:17) [classes/:na]
+13:43:15.436 ERROR c.l.c.f.FileUtil- 写入文本文件全部内容时错误
+java.io.FileNotFoundException: /Users/bob/Desktop/pubmed/pmcc/articles/300/PMC3000000/table/t1-ehi-2010-087.jsp (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_102]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[na:1.8.0_102]
+	at com.lemon.commons.file.FileUtil.writeAllText(FileUtil.java:315) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseRefTable(ParserPaper.java:403) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseFulltext(ParserPaper.java:358) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.run(ParserPaper.java:125) [classes/:na]
+	at com.lemon.tools.spider.pmc.Spider.main(Spider.java:17) [classes/:na]
+13:43:15.442 ERROR c.l.c.f.FileUtil- 写入文本文件全部内容时错误
+java.io.FileNotFoundException: /Users/bob/Desktop/pubmed/pmcc/articles/300/PMC3000000/table/t1-ehi-2010-087.html (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_102]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[na:1.8.0_102]
+	at com.lemon.commons.file.FileUtil.writeAllText(FileUtil.java:315) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseRefTable(ParserPaper.java:404) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseFulltext(ParserPaper.java:358) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.run(ParserPaper.java:125) [classes/:na]
+	at com.lemon.tools.spider.pmc.Spider.main(Spider.java:17) [classes/:na]
+13:43:20.593 ERROR c.l.c.f.FileUtil- 写入文本文件全部内容时错误
+java.io.FileNotFoundException: /Users/bob/Desktop/pubmed/pmcc/articles/300/PMC3000000/table/t2-ehi-2010-087.jsp (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_102]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[na:1.8.0_102]
+	at com.lemon.commons.file.FileUtil.writeAllText(FileUtil.java:315) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseRefTable(ParserPaper.java:403) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseFulltext(ParserPaper.java:358) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.run(ParserPaper.java:125) [classes/:na]
+	at com.lemon.tools.spider.pmc.Spider.main(Spider.java:17) [classes/:na]
+13:43:20.594 ERROR c.l.c.f.FileUtil- 写入文本文件全部内容时错误
+java.io.FileNotFoundException: /Users/bob/Desktop/pubmed/pmcc/articles/300/PMC3000000/table/t2-ehi-2010-087.html (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_102]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[na:1.8.0_102]
+	at com.lemon.commons.file.FileUtil.writeAllText(FileUtil.java:315) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseRefTable(ParserPaper.java:404) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseFulltext(ParserPaper.java:358) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.run(ParserPaper.java:125) [classes/:na]
+	at com.lemon.tools.spider.pmc.Spider.main(Spider.java:17) [classes/:na]
+13:43:50.643 ERROR c.l.c.f.FileUtil- 写入文本文件全部内容时错误
+java.io.FileNotFoundException: /Users/bob/Desktop/pubmed/pmcc/articles/300/PMC3000000/table/t1-ehi-2010-087.jsp (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_102]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[na:1.8.0_102]
+	at com.lemon.commons.file.FileUtil.writeAllText(FileUtil.java:315) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseRefTable(ParserPaper.java:403) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseFulltext(ParserPaper.java:358) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.run(ParserPaper.java:125) [classes/:na]
+	at com.lemon.tools.spider.pmc.Spider.main(Spider.java:17) [classes/:na]
+13:43:51.508 ERROR c.l.c.f.FileUtil- 写入文本文件全部内容时错误
+java.io.FileNotFoundException: /Users/bob/Desktop/pubmed/pmcc/articles/300/PMC3000000/table/t1-ehi-2010-087.html (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_102]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[na:1.8.0_102]
+	at com.lemon.commons.file.FileUtil.writeAllText(FileUtil.java:315) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseRefTable(ParserPaper.java:404) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseFulltext(ParserPaper.java:358) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.run(ParserPaper.java:125) [classes/:na]
+	at com.lemon.tools.spider.pmc.Spider.main(Spider.java:17) [classes/:na]
+13:44:39.807 ERROR c.l.c.f.FileUtil- 写入文本文件全部内容时错误
+java.io.FileNotFoundException: /Users/bob/Desktop/pubmed/pmcc/articles/300/PMC3000000/table/t2-ehi-2010-087.jsp (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_102]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[na:1.8.0_102]
+	at com.lemon.commons.file.FileUtil.writeAllText(FileUtil.java:315) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseRefTable(ParserPaper.java:403) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseFulltext(ParserPaper.java:358) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.run(ParserPaper.java:125) [classes/:na]
+	at com.lemon.tools.spider.pmc.Spider.main(Spider.java:17) [classes/:na]
+13:44:39.809 ERROR c.l.c.f.FileUtil- 写入文本文件全部内容时错误
+java.io.FileNotFoundException: /Users/bob/Desktop/pubmed/pmcc/articles/300/PMC3000000/table/t2-ehi-2010-087.html (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_102]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[na:1.8.0_102]
+	at com.lemon.commons.file.FileUtil.writeAllText(FileUtil.java:315) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseRefTable(ParserPaper.java:404) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseFulltext(ParserPaper.java:358) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.run(ParserPaper.java:125) [classes/:na]
+	at com.lemon.tools.spider.pmc.Spider.main(Spider.java:17) [classes/:na]
+13:45:50.667 ERROR c.l.c.f.FileUtil- 写入文本文件全部内容时错误
+java.io.FileNotFoundException: /Users/bob/Desktop/pubmed/pmcc/articles/300/PMC3000000/table/t1-ehi-2010-087.jsp (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_102]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[na:1.8.0_102]
+	at com.lemon.commons.file.FileUtil.writeAllText(FileUtil.java:315) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseRefTable(ParserPaper.java:403) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseFulltext(ParserPaper.java:358) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.run(ParserPaper.java:125) [classes/:na]
+	at com.lemon.tools.spider.pmc.Spider.main(Spider.java:17) [classes/:na]
+13:45:50.675 ERROR c.l.c.f.FileUtil- 写入文本文件全部内容时错误
+java.io.FileNotFoundException: /Users/bob/Desktop/pubmed/pmcc/articles/300/PMC3000000/table/t1-ehi-2010-087.html (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_102]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[na:1.8.0_102]
+	at com.lemon.commons.file.FileUtil.writeAllText(FileUtil.java:315) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseRefTable(ParserPaper.java:404) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseFulltext(ParserPaper.java:358) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.run(ParserPaper.java:125) [classes/:na]
+	at com.lemon.tools.spider.pmc.Spider.main(Spider.java:17) [classes/:na]
+13:45:55.443 ERROR c.l.c.f.FileUtil- 写入文本文件全部内容时错误
+java.io.FileNotFoundException: /Users/bob/Desktop/pubmed/pmcc/articles/300/PMC3000000/table/t2-ehi-2010-087.jsp (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_102]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[na:1.8.0_102]
+	at com.lemon.commons.file.FileUtil.writeAllText(FileUtil.java:315) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseRefTable(ParserPaper.java:403) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseFulltext(ParserPaper.java:358) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.run(ParserPaper.java:125) [classes/:na]
+	at com.lemon.tools.spider.pmc.Spider.main(Spider.java:17) [classes/:na]
+13:45:55.445 ERROR c.l.c.f.FileUtil- 写入文本文件全部内容时错误
+java.io.FileNotFoundException: /Users/bob/Desktop/pubmed/pmcc/articles/300/PMC3000000/table/t2-ehi-2010-087.html (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_102]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[na:1.8.0_102]
+	at com.lemon.commons.file.FileUtil.writeAllText(FileUtil.java:315) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseRefTable(ParserPaper.java:404) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseFulltext(ParserPaper.java:358) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.run(ParserPaper.java:125) [classes/:na]
+	at com.lemon.tools.spider.pmc.Spider.main(Spider.java:17) [classes/:na]
+13:46:25.684 ERROR c.l.c.f.FileUtil- 写入文本文件全部内容时错误
+java.io.FileNotFoundException: /Users/bob/Desktop/pubmed/pmcc/articles/300/PMC3000000/figure/f1-ehi-2010-087.jsp (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_102]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[na:1.8.0_102]
+	at com.lemon.commons.file.FileUtil.writeAllText(FileUtil.java:315) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseRefFigure(ParserPaper.java:391) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseFulltext(ParserPaper.java:375) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.run(ParserPaper.java:125) [classes/:na]
+	at com.lemon.tools.spider.pmc.Spider.main(Spider.java:17) [classes/:na]
+13:46:26.597 ERROR c.l.c.f.FileUtil- 写入文本文件全部内容时错误
+java.io.FileNotFoundException: /Users/bob/Desktop/pubmed/pmcc/articles/300/PMC3000000/figure/f1-ehi-2010-087.html (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_102]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[na:1.8.0_102]
+	at com.lemon.commons.file.FileUtil.writeAllText(FileUtil.java:315) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseRefFigure(ParserPaper.java:392) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseFulltext(ParserPaper.java:375) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.run(ParserPaper.java:125) [classes/:na]
+	at com.lemon.tools.spider.pmc.Spider.main(Spider.java:17) [classes/:na]
+13:49:29.345 ERROR c.l.c.f.FileUtil- 写入文本文件全部内容时错误
+java.io.FileNotFoundException: /Users/bob/Desktop/pubmed/pmcc/articles/300/PMC3000000/table/t1-ehi-2010-087.jsp (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_102]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[na:1.8.0_102]
+	at com.lemon.commons.file.FileUtil.writeAllText(FileUtil.java:315) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseRefTable(ParserPaper.java:403) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseFulltext(ParserPaper.java:358) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.run(ParserPaper.java:125) [classes/:na]
+	at com.lemon.tools.spider.pmc.Spider.main(Spider.java:17) [classes/:na]
+13:49:29.354 ERROR c.l.c.f.FileUtil- 写入文本文件全部内容时错误
+java.io.FileNotFoundException: /Users/bob/Desktop/pubmed/pmcc/articles/300/PMC3000000/table/t1-ehi-2010-087.html (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_102]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[na:1.8.0_102]
+	at com.lemon.commons.file.FileUtil.writeAllText(FileUtil.java:315) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseRefTable(ParserPaper.java:404) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseFulltext(ParserPaper.java:358) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.run(ParserPaper.java:125) [classes/:na]
+	at com.lemon.tools.spider.pmc.Spider.main(Spider.java:17) [classes/:na]
+13:49:35.286 ERROR c.l.c.f.FileUtil- 写入文本文件全部内容时错误
+java.io.FileNotFoundException: /Users/bob/Desktop/pubmed/pmcc/articles/300/PMC3000000/table/t2-ehi-2010-087.jsp (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_102]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[na:1.8.0_102]
+	at com.lemon.commons.file.FileUtil.writeAllText(FileUtil.java:315) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseRefTable(ParserPaper.java:403) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseFulltext(ParserPaper.java:358) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.run(ParserPaper.java:125) [classes/:na]
+	at com.lemon.tools.spider.pmc.Spider.main(Spider.java:17) [classes/:na]
+13:49:35.287 ERROR c.l.c.f.FileUtil- 写入文本文件全部内容时错误
+java.io.FileNotFoundException: /Users/bob/Desktop/pubmed/pmcc/articles/300/PMC3000000/table/t2-ehi-2010-087.html (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_102]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[na:1.8.0_102]
+	at com.lemon.commons.file.FileUtil.writeAllText(FileUtil.java:315) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseRefTable(ParserPaper.java:404) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseFulltext(ParserPaper.java:358) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.run(ParserPaper.java:125) [classes/:na]
+	at com.lemon.tools.spider.pmc.Spider.main(Spider.java:17) [classes/:na]
+13:49:38.559 ERROR c.l.c.f.FileUtil- 写入文本文件全部内容时错误
+java.io.FileNotFoundException: /Users/bob/Desktop/pubmed/pmcc/articles/300/PMC3000000/figure/f1-ehi-2010-087.jsp (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_102]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[na:1.8.0_102]
+	at com.lemon.commons.file.FileUtil.writeAllText(FileUtil.java:315) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseRefFigure(ParserPaper.java:391) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseFulltext(ParserPaper.java:375) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.run(ParserPaper.java:125) [classes/:na]
+	at com.lemon.tools.spider.pmc.Spider.main(Spider.java:17) [classes/:na]
+13:49:38.561 ERROR c.l.c.f.FileUtil- 写入文本文件全部内容时错误
+java.io.FileNotFoundException: /Users/bob/Desktop/pubmed/pmcc/articles/300/PMC3000000/figure/f1-ehi-2010-087.html (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_102]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_102]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[na:1.8.0_102]
+	at com.lemon.commons.file.FileUtil.writeAllText(FileUtil.java:315) ~[classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseRefFigure(ParserPaper.java:392) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.parseFulltext(ParserPaper.java:375) [classes/:na]
+	at com.lemon.tools.spider.pmc.ParserPaper.run(ParserPaper.java:125) [classes/:na]
+	at com.lemon.tools.spider.pmc.Spider.main(Spider.java:17) [classes/:na]
+13:59:41.306 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23502
+13:59:41.314 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: null value in column "email" violates not-null constraint
+  详细：Failing row contains (2, 3000000, e, 2017-01-14 13:59:05.276, null, null, null, null, null, null, null, null, paper html error., 3).
+14:11:04.603 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+14:11:04.611 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+14:15:08.927 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+14:15:08.935 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+14:16:24.541 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42P01
+14:16:24.541 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: relation "paper" does not exist
+  位置：13
+14:19:02.958 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+14:19:02.967 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+>>>>>>> dev_1_1
+15:22:44.355 WARN  o.s.c.s.FileSystemXmlApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in URL [file:/Users/bob/git/LemonSpider/modules/tools/target/classes/applicationContext.xml]: Cannot resolve reference to bean 'hibernateJpaVendorAdapter' while setting bean property 'jpaVendorAdapter'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateJpaVendorAdapter' defined in URL [file:/Users/bob/git/LemonSpider/modules/tools/target/classes/applicationContext.xml]: Cannot create inner bean 'com.lemon.commons.dbdialect.LemonJpaDialects#4ac3c60d' of type [com.lemon.commons.dbdialect.LemonJpaDialects] while setting bean property 'databasePlatform'; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.lemon.commons.dbdialect.LemonJpaDialects] for bean with name 'com.lemon.commons.dbdialect.LemonJpaDialects#4ac3c60d' defined in URL [file:/Users/bob/git/LemonSpider/modules/tools/target/classes/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: com.lemon.commons.dbdialect.LemonJpaDialects
+15:23:35.565 WARN  o.s.c.s.FileSystemXmlApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in URL [file:/Users/bob/git/LemonSpider/modules/tools/target/classes/applicationContext.xml]: Cannot resolve reference to bean 'hibernateJpaVendorAdapter' while setting bean property 'jpaVendorAdapter'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateJpaVendorAdapter' defined in URL [file:/Users/bob/git/LemonSpider/modules/tools/target/classes/applicationContext.xml]: Cannot create inner bean 'com.lemon.commons.dbdialect.LemonJpaDialects#4ac3c60d' of type [com.lemon.commons.dbdialect.LemonJpaDialects] while setting bean property 'databasePlatform'; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.lemon.commons.dbdialect.LemonJpaDialects] for bean with name 'com.lemon.commons.dbdialect.LemonJpaDialects#4ac3c60d' defined in URL [file:/Users/bob/git/LemonSpider/modules/tools/target/classes/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: com.lemon.commons.dbdialect.LemonJpaDialects
