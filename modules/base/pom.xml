@@ -692,6 +692,11 @@
             <artifactId>selenium-support</artifactId>
             <version>RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>org.springside</groupId>
+            <artifactId>springside-core</artifactId>
+            <version>RELEASE</version>
+        </dependency>
     </dependencies>
 
 

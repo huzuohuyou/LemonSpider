@@ -3,6 +3,7 @@ package com.lemon.ds.entity;
 import com.lemon.ds.base.entity.IdSerialEntity;
 import org.springside.modules.utils.Clock;
 
+
 import javax.persistence.Entity;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;

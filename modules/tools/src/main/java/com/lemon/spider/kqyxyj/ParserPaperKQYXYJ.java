@@ -1,25 +1,20 @@
 package com.lemon.spider.kqyxyj;
 
-import com.lemon.commons.file.FileUtil;
 import com.lemon.commons.spider.XDownloader;
+import com.lemon.ds.entity.Author;
 import com.lemon.ds.entity.Paper;
-import com.lemon.ds.entity.PaperAsset;
 import com.lemon.ds.entity.PaperEmail;
 import com.lemon.ds.entity.PaperLog;
-import com.lemon.ds.service.PaperAssetService;
-import com.lemon.ds.service.PaperEmailService;
-import com.lemon.ds.service.PaperLogService;
-import com.lemon.ds.service.PaperService;
+import com.lemon.ds.service.*;
 
 import com.lemon.spider.FileSession;
-import com.lemon.spider.GlobalClean;
+import com.lemon.spider.pmc.HtmlWraper;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 import org.springframework.stereotype.Component;
-import us.codecraft.xsoup.XElements;
 import us.codecraft.xsoup.Xsoup;
 
 import java.text.SimpleDateFormat;
@@ -63,7 +58,8 @@ public final class ParserPaperKQYXYJ extends Thread {
     private PaperEmailService peService;
     @Autowired
     private PaperAssetService prService;
-
+    @Autowired
+    private AuthorService aService;
 
     private List<PaperEmail> listEmail = new ArrayList<>();
     private FileSession fileSession;
@@ -80,8 +76,7 @@ public final class ParserPaperKQYXYJ extends Thread {
         plService = context.getBean(PaperLogService.class);
         peService = context.getBean(PaperEmailService.class);
         prService = context.getBean(PaperAssetService.class);
-
-//		aService = context.getBean(AuthorService.class);
+        aService = context.getBean(AuthorService.class);
 //		apService = context.getBean(AuthorPapersService.class);
     }
 
@@ -179,14 +174,26 @@ public final class ParserPaperKQYXYJ extends Thread {
         pl.onAbstractOK();
         Document doc = Jsoup.parse(rawData);
         String title = Xsoup.compile(String.format("/html/body/table[2]/tbody/tr/td/table[2]/tbody/tr[3]/td/span/text()")).evaluate(doc).get();
-        String doi=Xsoup.compile(String.format("/html/body/table[2]/tbody/tr/td[3]/table/tbody/tr[2]/td/form[1]/table/tbody/tr/td/table[3]/tbody/tr[2]/td/table/tbody/tr[3]/td[3]/text()")).evaluate(doc).get();
+        String doIinfo=Xsoup.compile(String.format("/html/body/table[2]/tbody/tr/td/table[1]/tbody/tr/td/span/text()")).evaluate(doc).get();
+        String[] dois =doIinfo==null?null:doIinfo.split(":");
+        String doi=dois==null?"":dois[dois.length - 1].trim();
+        doi = doi.length()>=28?doi:"";
+        System.out.println("DOI"+doi);
+        //.split(":")[-1].trim()
         String journal="口腔医学研究";
         String journalVolume=Xsoup.compile(String.format("/html/body/table[2]/tbody/tr/td/table[1]/tbody/tr/td/b/a/text()")).evaluate(doc).get();
         String pageBegin=Xsoup.compile(String.format("/html/body/table[2]/tbody/tr/td/table[1]/tbody/tr/td/span/text()")).evaluate(doc).get();
         String pageEnd=Xsoup.compile(String.format("/html/body/table[2]/tbody/tr/td/table[1]/tbody/tr/td/span/text()")).evaluate(doc).get();
         String onlineDate=Xsoup.compile(String.format("/html/body/table[2]/tbody/tr/td/table[1]/tbody/tr/td/span/text()")).evaluate(doc).get();
         String abstr=Xsoup.compile(String.format("//*[@id=\"abstract_tab_content\"]/table[1]/tbody/tr[2]/td[1]/span/text()")).evaluate(doc).get();
-        String keyword=Xsoup.compile(String.format("//*[@id=\"abstract_tab_content\"]/table[1]/tbody/tr[3]/td/text()")).evaluate(doc).get();
+        String keywordInfo =Xsoup.compile(String.format("//*[@id=\"abstract_tab_content\"]/table[1]/tbody/tr[3]/td")).evaluate(doc).get();
+
+        Pattern rkeyword =  Pattern.compile(">([\\u4e00-\\u9fa5]*)<");
+        Matcher mkeyword = rkeyword.matcher(keywordInfo);
+        String keyword = "";
+        while(mkeyword.find())
+            keyword +=mkeyword.group().replace("<","").replace(">","")+" ";
+        keyword = keyword.trim();
         String authors=Xsoup.compile(String.format("/html/body/table[2]/tbody/tr/td/table[2]/tbody/tr[4]/td/text()")).evaluate(doc).get();
         String authorOrgs=Xsoup.compile(String.format("/html/body/table[2]/tbody/tr/td/table[2]/tbody/tr[5]/td/span/text()")).evaluate(doc).get();
         boolean ok = XDownloaderKQYXYJ.sharedInstance().download2File(
@@ -206,11 +213,47 @@ public final class ParserPaperKQYXYJ extends Thread {
         p.setKeyword(keyword);
         p.setAuthors(authors);
         p.setAuthorOrgs(authorOrgs);
-        System.out.print("*********************\n"+p.toString());
+        //authors
+        String email=Xsoup.compile(String.format("//*[@id=\"abstract_tab_content\"]/table[1]/tbody/tr[9]/td/span/text()")).evaluate(doc).get();
+        String dept=Xsoup.compile(String.format("/html/body/table[2]/tbody/tr/td/table[2]/tbody/tr[5]/td/span/text()")).evaluate(doc).get();
+        String baseinfo=Xsoup.compile(String.format("//*[@id=\"abstract_tab_content\"]/table[1]/tbody/tr[10]/td/span/text()")).evaluate(doc).get();
+
+
+
+        String[]  authoList = authors.trim().split(",");
+        for (String x:authoList ) {
+            String name = x.trim();
+            System.out.println("*********************"+x);
+            Author a = new Author();
+            a.setName(name);
+            Pattern remail =  Pattern.compile("[\\w!#$%&'*+/=?^_`{|}~-]+(?:\\.[\\w!#$%&'*+/=?^_`{|}~-]+)*@(?:[\\w](?:[\\w-]*[\\w])?\\.)+[\\w](?:[\\w-]*[\\w])?");
+            Matcher memail = remail.matcher(email);
+
+            Pattern rphone =  Pattern.compile("\\d{3}-\\d{8}|\\d{4}-\\{7,8}");
+            Matcher mphone = rphone.matcher(email);
+            if(memail.find()|mphone.find())
+            {
+                a.setAddress(baseinfo.contains(name)?baseinfo:null);
+                a.setCity(baseinfo.contains(name)?baseinfo:null);
+                if(email.contains(name))
+                    a.setEmail(memail.group(0)==null?mphone.group(0):memail.group(0));
+            }else{
+                a.setAddress(email.contains(name)?email:null);
+                a.setCity(email.contains(name)?email:null);
+                a.setEmail(null);
+            }
+            a.setCountry("China");
+
+            aService.saveEntity(a);
+        }
+
+
+        //System.out.print("*********************\n"+email+"#"+dept+baseinfo);
         //2. PDF
 
         pl.setStatus(YES);
         service.saveEntity(p);
+
         plService.saveOrUpdate(pl);
         return p;
     }
