@@ -40,7 +40,7 @@ import java.util.regex.Pattern;
 
 @Component
 public final class ParserPaperKQYXYJ extends Thread {
-    private static final String UrlPrefix4Spider = "/Jwk_kqyxyj/CN/abstract/abstract%d.shtml";
+
 
 
     public final static int skipHead = 5000;
@@ -161,7 +161,7 @@ public final class ParserPaperKQYXYJ extends Thread {
 
         //1. 摘要
         //wuhailong
-        String url = String.format(UrlPrefix4Spider, pmcId);
+        String url = String.format(SpiderKQYXYJ.UrlPrefix4Spider, pmcId);
         String rawData = XDownloaderKQYXYJ.sharedInstance().getHtml(url);
         fileSession = new FileSession(pmcId);
         if (rawData == null) {
@@ -172,7 +172,7 @@ public final class ParserPaperKQYXYJ extends Thread {
             return p;
         }
         pl.onAbstractOK();
-        Document doc = Jsoup.parse(rawData);
+        Document doc = Jsoup.parse(rawData);        //html/body/table[2]/tbody/tr/td/table[2]/tbody/tr[3]/td/span
         String title = Xsoup.compile(String.format("/html/body/table[2]/tbody/tr/td/table[2]/tbody/tr[3]/td/span/text()")).evaluate(doc).get();
         String doIinfo=Xsoup.compile(String.format("/html/body/table[2]/tbody/tr/td/table[1]/tbody/tr/td/span/text()")).evaluate(doc).get();
         String[] dois =doIinfo==null?null:doIinfo.split(":");

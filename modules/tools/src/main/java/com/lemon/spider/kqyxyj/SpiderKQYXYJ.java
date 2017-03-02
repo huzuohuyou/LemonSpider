@@ -10,6 +10,7 @@ public class SpiderKQYXYJ {
     public static int PMC_Start = 32;
     public static int PMC_Stop =  950;
     public static String WWWROOTDir = "/Users/bob/Sites/med/";
+    public static  String UrlPrefix4Spider = "/Jwk_kqyxyj/CN/abstract/abstract%d.shtml";
     public final static long APP_Start = System.currentTimeMillis();
 //    public static ApplicationContext context = null;
 

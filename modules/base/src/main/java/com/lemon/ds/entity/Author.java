@@ -13,57 +13,70 @@ import static com.lemon.commons.enm.EnumSearchOperator.NotNull;
 @Table(name = "author", uniqueConstraints={@UniqueConstraint(columnNames={"name", "email", "address"})})
 public class Author extends IdSerialEntity {
 	@NotNull
-	private String name;
+	private String id;
+	@NotNull
+	private String paper_id;
+	@NotNull
+	private String author_name;
+	private String author_email;
 
-	private String email;
+	private String status;
 
-	private String address;
+	private String extra;
 
-	private String country;
 
-	private String city;
 
 
 	public Author() {
 	}
 
-	public String getName() {
-		return name;
+	
+
+	public void setId(String id) {
+		this.id = id;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public String getPaper_id() {
+		return paper_id;
 	}
 
-	public String getEmail() {
-		return email;
+	public void setPaper_id(String paper_id) {
+		this.paper_id = paper_id;
 	}
 
-	public void setEmail(String email) {
-		this.email = email;
+	public String getAuthor_name() {
+		return author_name;
 	}
 
-	public String getAddress() {
-		return address;
+	public void setAuthor_name(String author_name) {
+		this.author_name = author_name;
 	}
 
-	public void setAddress(String address) {
-		this.address = address;
+	public String getAuthor_email() {
+		return author_email;
 	}
 
-	public String getCountry() {
-		return country;
+	public void setAuthor_email(String author_email) {
+		this.author_email = author_email;
 	}
 
-	public void setCountry(String country) {
-		this.country = country;
+	public String getStatus() {
+		return status;
 	}
 
-	public String getCity() {
-		return city;
+	public void setStatus(String status) {
+		this.status = status;
 	}
 
-	public void setCity(String city) {
-		this.city = city;
+	public String getExtra() {
+		return extra;
 	}
+
+	public void setExtra(String extra) {
+		this.extra = extra;
+	}
+
+
+
+
 }
