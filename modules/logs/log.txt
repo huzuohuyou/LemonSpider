@@ -1268,3 +1268,9 @@
 10:32:56.709 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
 10:34:38.741 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
 10:34:38.746 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+11:32:31.421 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+11:32:31.423 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_ssqx2upil902346aokwby7gqw"
+  详细：Key (paper_id, author_name)=(547, 周建业) already exists.
+11:32:59.004 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 23505
+11:32:59.004 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: duplicate key value violates unique constraint "uk_ssqx2upil902346aokwby7gqw"
+  详细：Key (paper_id, author_name)=(862, ) already exists.

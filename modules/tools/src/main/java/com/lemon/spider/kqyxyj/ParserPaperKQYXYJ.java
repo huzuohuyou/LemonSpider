@@ -209,8 +209,8 @@ public final class ParserPaperKQYXYJ extends Thread {
         p.setPage_end(Integer.parseInt(pageBegin.trim().split("    ")[0].split("-")[1]));
         SimpleDateFormat sdf =   new SimpleDateFormat( " yyyy-MM-dd" );
         //p.setOnlineDate(sdf.parse("2017-02-01"));
-        p.setAbstr(abstr);
-        p.setKeyword(keyword);
+        p.setAbstr_cn(abstr);
+        p.setKeyword_cn(keyword);
         p.setAuthors(authors);
         p.setAuthor_orgs(authorOrgs);
         //authors
@@ -222,7 +222,12 @@ public final class ParserPaperKQYXYJ extends Thread {
 
         String[]  authoList = authors.trim().split(",");
         pl.setStatus(YES);
-        p.setJournal_year(2017);
+        String journalYear=Xsoup.compile(String.format("/html/body/table[2]/tbody/tr/td/table[1]/tbody/tr/td/a[2]/text()")).evaluate(doc).get();
+        //System.out.print("###############"+journalYear);
+        p.setJournal_year(Integer.parseInt(journalYear));
+
+        String journalNo=Xsoup.compile(String.format("/html/body/table[2]/tbody/tr/td/table[1]/tbody/tr/td/a[3]/text()")).evaluate(doc).get();
+        p.setJournal_no(journalNo);
         p=service.saveEntity(p);
 
         for (String x:authoList ) {
