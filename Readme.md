@@ -9,8 +9,14 @@ Offical Site: http://www.chaojijiangshi.cn
 
 
 版本说明：
-v3.0
 
+- 2.0.0.4
+
+	修改paper实体与author_paper实体字段&字段类型；
+
+- 2.0.0.3
+
+	修改paper和author实体字段；
 
 v2.1 (2016/03/15)
 1. 把pc web的所有剩下未h5的页面，全部增加h5页面的版本

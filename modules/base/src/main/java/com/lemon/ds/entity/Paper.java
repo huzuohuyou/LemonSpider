@@ -12,8 +12,8 @@ import java.util.Date;
 @Entity
 @Table(name = "paper")
 public class Paper extends IdSerialEntity {
-	@NotNull
-	private Integer Id;
+//	@NotNull
+//	private Integer Id;
 	@NotNull
 	private String title;
 	@NotNull
@@ -26,17 +26,17 @@ public class Paper extends IdSerialEntity {
 	private String abstr_cn;
 	private String keyword_cn;
 	private String doi;
-	private String nihms_id;
+	private Integer nihms_id;
 	private String source;
 	private String url_abstract;
 	private String url_fulltext;
-	private String source_id;
+	private Integer source_id;
 	private String source_id_str;
-	private String pm_id;
+	private Integer pm_id;
 	@NotNull
 	private String journal;
 	@NotNull
-	private String journal_year;
+	private Integer journal_year;
 	private String journal_volume;
 	private String journal_no;
 	@NotNull
@@ -50,15 +50,15 @@ public class Paper extends IdSerialEntity {
 	@NotNull
 	private Date ts = Clock.DEFAULT.getCurrentDate();
 
-	@Override
-	public Integer getId() {
-		return Id;
-	}
+	//@Override
+//	public Integer getId() {
+//		return Id;
+//	}
 
-	@Override
-	public void setId(Integer id) {
-		Id = id;
-	}
+//	@Override
+//	public void setId(Integer id) {
+//		Id = id;
+//	}
 
 	public String getTitle() {
 		return title;
@@ -124,11 +124,11 @@ public class Paper extends IdSerialEntity {
 		this.doi = doi;
 	}
 
-	public String getNihms_id() {
+	public Integer getNihms_id() {
 		return nihms_id;
 	}
 
-	public void setNihms_id(String nihms_id) {
+	public void setNihms_id(Integer nihms_id) {
 		this.nihms_id = nihms_id;
 	}
 
@@ -156,11 +156,11 @@ public class Paper extends IdSerialEntity {
 		this.url_fulltext = url_fulltext;
 	}
 
-	public String getSource_id() {
+	public Integer getSource_id() {
 		return source_id;
 	}
 
-	public void setSource_id(String source_id) {
+	public void setSource_id(Integer source_id) {
 		this.source_id = source_id;
 	}
 
@@ -172,11 +172,11 @@ public class Paper extends IdSerialEntity {
 		this.source_id_str = source_id_str;
 	}
 
-	public String getPm_id() {
+	public Integer getPm_id() {
 		return pm_id;
 	}
 
-	public void setPm_id(String pm_id) {
+	public void setPm_id(Integer pm_id) {
 		this.pm_id = pm_id;
 	}
 
@@ -188,11 +188,11 @@ public class Paper extends IdSerialEntity {
 		this.journal = journal;
 	}
 
-	public String getJournal_year() {
+	public Integer getJournal_year() {
 		return journal_year;
 	}
 
-	public void setJournal_year(String journal_year) {
+	public void setJournal_year(Integer journal_year) {
 		this.journal_year = journal_year;
 	}
 

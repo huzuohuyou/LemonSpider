@@ -6,11 +6,14 @@
 package com.lemon.ds.dao;
 
 import com.lemon.ds.base.dao.LemonRepo;
-import com.lemon.ds.entity.Author;
+import com.lemon.ds.entity.PaperAuthor;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 
-public interface AuthorDao extends LemonRepo<Author, Integer> {
+public interface AuthorDao extends LemonRepo<PaperAuthor, Integer> {
 
-    List<Author> findByNameAndAddress(String name, String address);
+    @Query("from PaperAuthor where author_name=:name")
+    List<PaperAuthor> findByAuthorName(@Param("name") String name);
 }

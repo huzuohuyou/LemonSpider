@@ -1,7 +1,6 @@
 package com.lemon.spider.kqyxyj;
 
 import com.lemon.commons.spider.XDownloader;
-import com.lemon.spider.kqyxyj.ParserPaperKQYXYJ;
 
 /**
  * Created by bob on 2017/2/20.

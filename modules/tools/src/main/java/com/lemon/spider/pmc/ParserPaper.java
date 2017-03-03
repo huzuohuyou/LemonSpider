@@ -250,12 +250,12 @@ public final class ParserPaper extends Thread {
 
 
 		String imgRelativePath = url.substring(url.indexOf("/pdf/"));
-		if(prService.existsByPmcIdAndImgPath(p.getPmcId(), imgRelativePath)) {
+		if(prService.existsByPmcIdAndImgPath(p.getId(), imgRelativePath)) {
 			p.setSizeKB(sizeKB);
 			return true;
 		}
 		PaperAsset pi = new PaperAsset();
-		pi.setPmcId(p.getPmcId());
+		pi.setPmcId(p.getId());
 		pi.setImgPath(imgRelativePath);
 
 		if(!XDownloaderPMC.sharedInstance().download2File(url, fileSession.getPdfOsPath())) {
@@ -309,16 +309,16 @@ public final class ParserPaper extends Thread {
 		Matcher m = patPageRange.matcher(journalInfo);
 		if(m.find()) {
 			int tagMid = journalInfo.indexOf('–', m.start());
-			p.setPageBegin(Integer.parseInt(journalInfo.substring(m.start(), tagMid)));
-			p.setPageEnd(Integer.parseInt(journalInfo.substring(tagMid+1, m.end())));
+			p.setPage_begin(Integer.parseInt(journalInfo.substring(m.start(), tagMid)));
+			p.setPage_end(Integer.parseInt(journalInfo.substring(tagMid+1, m.end())));
 
 			//3. volume
 			String vol = journalInfo.substring(tagVolEnd + 2, m.start() - 2);
-			p.setJournalVolume(vol);
+			p.setJournal_volume(vol);
 		} else {
 			//3. volume
 			String vol = journalInfo.substring(tagVolEnd + 2);
-			p.setJournalVolume(vol);
+			p.setJournal_volume(vol);
 		}
 
 		/**
@@ -350,7 +350,6 @@ public final class ParserPaper extends Thread {
 					}
 				}
 				if(date != null) {
-					p.setOnlineDate(date);
 				}
 			}
 		}
@@ -369,7 +368,6 @@ public final class ParserPaper extends Thread {
 		if(nihmsInfo != null) {
 			m = patNihmsId.matcher(nihmsInfo);
 			if (m.find()) {
-				p.setNihmsId(Integer.parseInt(nihmsInfo.substring(m.start() + 5, m.end())));
 			}
 		}
 
@@ -393,7 +391,7 @@ public final class ParserPaper extends Thread {
 		String authorOrgs = Xsoup.compile("//div[@class='fm-panel small half_rhythm']/html()").evaluate(doc).get();
 		if(authorOrgs != null) {
 			authorOrgs = authorOrgs.replaceAll("style=\"display:none\"", "");
-			p.setAuthorOrgs(authorOrgs);
+			p.setAuthor_orgs(authorOrgs);
 
 			m = patInverseEmail.matcher(authorOrgs);
 			Set<String> emails = new TreeSet<>();
@@ -410,7 +408,7 @@ public final class ParserPaper extends Thread {
 
 				String email = new String(dst);
 				PaperEmail pe = new PaperEmail();
-				pe.setPmcId(p.getPmcId());
+				pe.setPmcId(p.getId());
 				pe.setEmail(email);
 				listEmail.add(pe);
 			}
@@ -436,7 +434,7 @@ public final class ParserPaper extends Thread {
 		}
 
 		//12. spider all img
-		if(!spiderImage(p.getPmcId(), text)) {
+		if(!spiderImage(p.getId(), text)) {
 			return false;
 		}
 
@@ -450,7 +448,7 @@ public final class ParserPaper extends Thread {
 			int tagRefIdEnd = tableStr.indexOf("\"", tagRefId);
 			String refId = tableStr.substring(tagRefId, tagRefIdEnd);
 
-			String urlRef = UrlPrefix4Spider + p.getPmcId() + "/table/" + refId + "/";
+			String urlRef = UrlPrefix4Spider + p.getId() + "/table/" + refId + "/";
 			String html = XDownloaderPMC.sharedInstance().getHtml(urlRef);
 			if(!parseRefTable(html, pl, p, refId)) {
 				continue;
@@ -467,7 +465,7 @@ public final class ParserPaper extends Thread {
 			int tagRefIdEnd = figureStr.indexOf("\"", tagRefId);
 			String refId = figureStr.substring(tagRefId, tagRefIdEnd);
 
-			String urlRef = UrlPrefix4Spider + p.getPmcId() + "/figure/" + refId + "/";
+			String urlRef = UrlPrefix4Spider + p.getId() + "/figure/" + refId + "/";
 			String html = XDownloaderPMC.sharedInstance().getHtml(urlRef);
 			if(!parseRefFigure(html, pl, p, refId)) {
 				continue;
@@ -488,7 +486,7 @@ public final class ParserPaper extends Thread {
 		FileUtil.writeAllText(cleanText, fileSession.getFigureJspOsPath(refId));
 		FileUtil.writeAllText(HtmlWraper.Ref.HEAD + cleanText + HtmlWraper.Ref.FOOT, fileSession.getFigureHtmlOsPath(refId));
 
-		return spiderImage(p.getPmcId(), body);
+		return spiderImage(p.getId(), body);
 	}
 
 
@@ -500,7 +498,7 @@ public final class ParserPaper extends Thread {
 		FileUtil.writeAllText(cleanText, fileSession.getTableJspOsPath(refId));
 		FileUtil.writeAllText(HtmlWraper.Ref.HEAD + cleanText + HtmlWraper.Ref.FOOT, fileSession.getTableHtmlOsPath(refId));
 
-		return spiderImage(p.getPmcId(), body);
+		return spiderImage(p.getId(), body);
 	}
 
 

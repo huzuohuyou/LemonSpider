@@ -10,37 +10,31 @@ import javax.validation.constraints.NotNull;
 import static com.lemon.commons.enm.EnumSearchOperator.NotNull;
 
 @Entity
-@Table(name = "author", uniqueConstraints={@UniqueConstraint(columnNames={"name", "email", "address"})})
-public class Author extends IdSerialEntity {
+@Table(name = "paper_author")
+public class PaperAuthor extends IdSerialEntity {
+//	@NotNull
+//	private Integer id;
 	@NotNull
-	private String id;
-	@NotNull
-	private String paper_id;
+	private Integer paper_id;
 	@NotNull
 	private String author_name;
 	private String author_email;
-
-	private String status;
-
+	@NotNull
+	private char status;
 	private String extra;
 
-
-
-
-	public Author() {
+	public PaperAuthor() {
 	}
 
-	
+//	public void setId(String id) {
+//		this.id = id;
+//	}
 
-	public void setId(String id) {
-		this.id = id;
-	}
-
-	public String getPaper_id() {
+	public Integer getPaper_id() {
 		return paper_id;
 	}
 
-	public void setPaper_id(String paper_id) {
+	public void setPaper_id(Integer paper_id) {
 		this.paper_id = paper_id;
 	}
 
@@ -60,11 +54,11 @@ public class Author extends IdSerialEntity {
 		this.author_email = author_email;
 	}
 
-	public String getStatus() {
+	public char getStatus() {
 		return status;
 	}
 
-	public void setStatus(String status) {
+	public void setStatus(char status) {
 		this.status = status;
 	}
 

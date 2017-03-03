@@ -1,7 +1,7 @@
 package com.lemon.spider.kqyxyj;
 
 import com.lemon.commons.spider.XDownloader;
-import com.lemon.ds.entity.Author;
+import com.lemon.ds.entity.PaperAuthor;
 import com.lemon.ds.entity.Paper;
 import com.lemon.ds.entity.PaperEmail;
 import com.lemon.ds.entity.PaperLog;
@@ -203,16 +203,16 @@ public final class ParserPaperKQYXYJ extends Thread {
         p.setTitle(title);
         p.setDoi(doi);
         p.setJournal(journal);
-        p.setJournalVolume(journalVolume);
+        p.setJournal_volume(journalVolume);
        // System.out.println("----"+pageBegin.trim().split("    ")[0].split("-")[0]);
-        p.setPageBegin(Integer.parseInt(pageBegin.trim().split("    ")[0].split("-")[0]));
-        p.setPageEnd(Integer.parseInt(pageBegin.trim().split("    ")[0].split("-")[1]));
+        p.setPage_begin(Integer.parseInt(pageBegin.trim().split("    ")[0].split("-")[0]));
+        p.setPage_end(Integer.parseInt(pageBegin.trim().split("    ")[0].split("-")[1]));
         SimpleDateFormat sdf =   new SimpleDateFormat( " yyyy-MM-dd" );
         //p.setOnlineDate(sdf.parse("2017-02-01"));
         p.setAbstr(abstr);
         p.setKeyword(keyword);
         p.setAuthors(authors);
-        p.setAuthorOrgs(authorOrgs);
+        p.setAuthor_orgs(authorOrgs);
         //authors
         String email=Xsoup.compile(String.format("//*[@id=\"abstract_tab_content\"]/table[1]/tbody/tr[9]/td/span/text()")).evaluate(doc).get();
         String dept=Xsoup.compile(String.format("/html/body/table[2]/tbody/tr/td/table[2]/tbody/tr[5]/td/span/text()")).evaluate(doc).get();
@@ -221,11 +221,15 @@ public final class ParserPaperKQYXYJ extends Thread {
 
 
         String[]  authoList = authors.trim().split(",");
+        pl.setStatus(YES);
+        p.setJournal_year(2017);
+        p=service.saveEntity(p);
+
         for (String x:authoList ) {
             String name = x.trim();
             System.out.println("*********************"+x);
-            Author a = new Author();
-            a.setName(name);
+            PaperAuthor a = new PaperAuthor();
+            a.setAuthor_name(name);
             Pattern remail =  Pattern.compile("[\\w!#$%&'*+/=?^_`{|}~-]+(?:\\.[\\w!#$%&'*+/=?^_`{|}~-]+)*@(?:[\\w](?:[\\w-]*[\\w])?\\.)+[\\w](?:[\\w-]*[\\w])?");
             Matcher memail = remail.matcher(email);
 
@@ -233,17 +237,15 @@ public final class ParserPaperKQYXYJ extends Thread {
             Matcher mphone = rphone.matcher(email);
             if(memail.find()|mphone.find())
             {
-                a.setAddress(baseinfo.contains(name)?baseinfo:null);
-                a.setCity(baseinfo.contains(name)?baseinfo:null);
-                if(email.contains(name))
-                    a.setEmail(memail.group(0)==null?mphone.group(0):memail.group(0));
-            }else{
-                a.setAddress(email.contains(name)?email:null);
-                a.setCity(email.contains(name)?email:null);
-                a.setEmail(null);
-            }
-            a.setCountry("China");
 
+                if(email.contains(name))
+                    a.setAuthor_email(memail.group(0)==null?mphone.group(0):memail.group(0));
+            }else{
+
+                a.setAuthor_email(null);
+            }
+            a.setPaper_id(p.getId());
+            a.setStatus('a');
             aService.saveEntity(a);
         }
 
@@ -251,8 +253,7 @@ public final class ParserPaperKQYXYJ extends Thread {
         //System.out.print("*********************\n"+email+"#"+dept+baseinfo);
         //2. PDF
 
-        pl.setStatus(YES);
-        service.saveEntity(p);
+
 
         plService.saveOrUpdate(pl);
         return p;

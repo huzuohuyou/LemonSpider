@@ -1,4 +1,1270 @@
-14:26:37.716 WARN  o.s.c.s.FileSystemXmlApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in URL [file:/D:/GitHub/LemonSpider/modules/tools/target/classes/applicationContext.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
-14:32:40.466 WARN  o.s.c.s.FileSystemXmlApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in URL [file:/D:/GitHub/LemonSpider/modules/tools/target/classes/applicationContext.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
-14:36:18.507 WARN  o.s.c.s.FileSystemXmlApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in URL [file:/D:/GitHub/LemonSpider/modules/tools/target/classes/applicationContext.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
-14:39:34.397 WARN  o.s.c.s.FileSystemXmlApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in URL [file:/D:/GitHub/LemonSpider/modules/tools/target/classes/applicationContext.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+09:30:35.110 WARN  o.s.c.s.FileSystemXmlApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authorDao': Invocation of init method failed; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property name found for type paper_author!
+10:13:47.935 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:47.937 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:48.115 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:48.116 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:48.318 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:48.318 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:48.530 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:48.530 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:48.984 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:48.984 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:49.105 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:49.106 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:49.516 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:49.516 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:49.749 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:49.750 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:49.852 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:49.852 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:50.078 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:50.078 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:50.782 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:50.782 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:51.100 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:51.100 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:51.207 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:51.207 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:51.412 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:51.412 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:51.693 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:51.693 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:51.858 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:51.858 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:52.180 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:52.180 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:52.892 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:52.892 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:53.007 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:53.007 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:53.152 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:53.152 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:53.194 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:53.194 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:53.282 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:53.282 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:53.326 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:53.326 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:53.465 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:53.466 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:53.612 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:53.613 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:54.117 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:54.117 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:54.180 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:54.181 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:54.471 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:54.471 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:55.151 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:55.151 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:55.378 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:55.379 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:56.296 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:56.296 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:56.478 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:56.479 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:56.481 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:56.481 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:56.544 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:56.544 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:56.663 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:56.663 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:56.724 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:56.724 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:56.855 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:56.855 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:56.920 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:56.920 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:57.121 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:57.121 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:57.153 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:57.153 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:57.298 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:57.299 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:57.672 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:57.673 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:57.898 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:57.898 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:58.414 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:58.414 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:58.911 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:58.911 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:58.971 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:58.972 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:59.009 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:59.009 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:59.170 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:59.170 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:59.193 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:59.193 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:59.415 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:59.415 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:59.570 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:59.570 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:59.605 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:59.606 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:59.815 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:59.815 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:59.849 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:59.849 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:13:59.931 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:13:59.932 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:00.721 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:00.722 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:00.805 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:00.805 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:00.844 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:00.844 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:00.973 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:00.973 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:01.009 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:01.009 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:01.089 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:01.089 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:01.197 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:01.197 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:01.272 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:01.273 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:01.489 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:01.489 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:01.702 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:01.702 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:01.722 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:01.722 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:02.092 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:02.092 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:02.114 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:02.114 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:02.253 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:02.253 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:02.476 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:02.476 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:02.768 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:02.768 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:02.887 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:02.887 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:02.997 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:02.997 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:03.195 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:03.195 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:03.649 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:03.650 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:03.686 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:03.686 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:03.876 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:03.876 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:04.069 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:04.069 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:04.257 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:04.257 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:04.446 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:04.447 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:04.621 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:04.621 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:04.705 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:04.706 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:04.987 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:04.988 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:05.148 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:05.148 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:05.211 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:05.211 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:05.422 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:05.422 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:05.482 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:05.482 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:05.541 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:05.541 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:05.805 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:05.805 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:06.188 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:06.189 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:06.448 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:06.448 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:06.468 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:06.469 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:06.579 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:06.579 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:06.731 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:06.731 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:07.040 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:07.040 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:07.281 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:07.281 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:07.495 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:07.495 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:07.503 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:07.503 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:07.526 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:07.526 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:07.586 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:07.586 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:07.655 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:07.655 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:07.715 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:07.715 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:07.803 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:07.803 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:07.904 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:07.904 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:08.100 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:08.100 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:08.293 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:08.294 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:08.301 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:08.301 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:08.328 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:08.328 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:08.351 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:08.351 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:08.920 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:08.920 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:08.978 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:08.978 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:09.056 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:09.056 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:09.103 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:09.103 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:09.111 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:09.111 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:09.162 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:09.162 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:09.310 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:09.310 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:09.353 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:09.353 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:09.359 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:09.359 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:09.390 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:09.390 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:09.414 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:09.414 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:09.518 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:09.518 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:09.596 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:09.596 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:09.637 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:09.637 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:09.661 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:09.661 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:10.061 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:10.061 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:10.086 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:10.086 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:10.249 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:10.249 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:10.256 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:10.257 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:10.309 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:10.309 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:10.490 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:10.490 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:10.736 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:10.736 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:10.870 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:10.871 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:10.962 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:10.962 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:11.166 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:11.166 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:11.170 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:11.171 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:11.179 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:11.179 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:11.201 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:11.201 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:11.400 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:11.400 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:11.440 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:11.440 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:11.446 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:11.446 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:11.462 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:11.462 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:12.084 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:12.084 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:12.156 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:12.156 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:12.458 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:12.458 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:12.486 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:12.486 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:12.570 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:12.570 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:12.745 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:12.745 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:12.944 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:12.945 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:13.616 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:13.616 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:13.843 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:13.843 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:13.989 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:13.989 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:14.195 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:14.196 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:14.959 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:14.960 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:15.064 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:15.064 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:15.124 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:15.124 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:15.309 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:15.309 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:15.661 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:15.661 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:15.672 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:15.672 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:15.788 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:15.788 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:15.875 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:15.875 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:15.948 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:15.948 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:15.974 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:15.974 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:16.203 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:16.203 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:16.401 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:16.401 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:16.555 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:16.556 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:16.725 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:16.725 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:16.776 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:16.776 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:16.828 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:16.828 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:16.895 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:16.895 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:17.070 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:17.070 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:17.154 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:17.154 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:17.827 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:17.828 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:17.863 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:17.864 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:18.059 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:18.059 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:14:18.159 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:14:18.159 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:15:53.222 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:15:53.224 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:15:55.486 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:15:55.486 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:15:56.320 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:15:56.320 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:15:56.357 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:15:56.357 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:15:57.326 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:15:57.326 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:15:57.565 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:15:57.565 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:15:58.088 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:15:58.089 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:05.479 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:05.482 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:05.636 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:05.636 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:05.747 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:05.747 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:05.861 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:05.862 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:05.981 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:05.981 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:06.098 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:06.098 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:06.202 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:06.202 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:06.378 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:06.378 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:06.536 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:06.536 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:06.658 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:06.658 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:06.762 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:06.762 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:06.866 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:06.866 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:06.981 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:06.981 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:07.088 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:07.088 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:07.191 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:07.192 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:07.298 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:07.298 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:07.470 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:07.470 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:07.571 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:07.571 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:07.681 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:07.681 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:07.784 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:07.784 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:07.893 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:07.893 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:08.002 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:08.002 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:08.115 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:08.115 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:08.217 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:08.217 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:08.328 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:08.329 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:08.430 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:08.430 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:08.537 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:08.537 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:08.637 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:08.637 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:08.742 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:08.742 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:08.844 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:08.845 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:08.946 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:08.946 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:08.956 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:17:08.956 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:17:41.563 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:17:41.565 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:17:41.759 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:17:41.759 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:17:41.914 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:17:41.914 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:17:42.038 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:17:42.038 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:17:42.157 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:17:42.157 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:17:42.290 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:17:42.290 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:17:42.417 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:17:42.417 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:17:42.576 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:17:42.577 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:17:42.689 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:17:42.689 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:17:42.804 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:17:42.805 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:17:42.916 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:17:42.916 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:17:43.043 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:17:43.043 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:17:43.154 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:17:43.155 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:17:43.281 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:17:43.282 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:17:43.405 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:17:43.405 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:17:43.527 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:17:43.528 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:17:43.635 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:17:43.635 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:18:51.685 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:18:51.687 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:18:51.865 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:18:51.865 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:18:51.994 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:18:51.995 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:18:52.119 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:18:52.120 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:18:52.288 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:18:52.288 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:18:52.409 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:18:52.409 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:18:52.535 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:18:52.535 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:18:52.656 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:18:52.656 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:18:52.776 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:18:52.776 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:18:52.888 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:18:52.888 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:18:53.015 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:18:53.015 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:18:53.131 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:18:53.132 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:18:53.244 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:18:53.245 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:18:53.376 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:18:53.377 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:18:53.487 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:18:53.487 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:18:53.615 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:18:53.616 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:18:53.750 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:18:53.750 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:18:53.876 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:18:53.876 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "journal_year" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：310
+10:20:06.051 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:06.053 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:06.224 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:06.224 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:06.362 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:06.362 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:06.483 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:06.484 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:06.610 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:06.610 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:06.742 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:06.742 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:06.889 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:06.890 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:07.020 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:07.021 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:07.136 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:07.136 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:07.252 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:07.252 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:07.363 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:07.363 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:07.485 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:07.485 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:07.593 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:07.593 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:07.707 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:07.708 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:07.829 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:07.829 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:08.036 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:08.036 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:08.151 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:08.152 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:08.272 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:08.272 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:08.396 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:08.396 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:08.505 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:08.506 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:08.618 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:08.618 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:08.728 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:08.728 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:08.832 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:08.832 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:08.948 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:08.948 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:09.059 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:09.059 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:09.169 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:09.169 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:09.282 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:09.282 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "nihms_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：325
+10:20:59.458 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:59.460 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "pm_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：340
+10:20:59.639 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:59.639 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "pm_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：340
+10:20:59.782 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:59.782 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "pm_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：340
+10:20:59.900 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:20:59.901 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "pm_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：340
+10:21:00.036 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:21:00.036 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "pm_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：340
+10:21:00.156 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:21:00.157 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "pm_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：340
+10:21:00.274 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:21:00.274 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "pm_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：340
+10:21:00.395 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:21:00.395 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "pm_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：340
+10:21:00.530 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:21:00.530 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "pm_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：340
+10:21:00.650 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:21:00.650 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "pm_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：340
+10:21:00.764 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:21:00.764 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "pm_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：340
+10:21:00.941 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:21:00.941 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "pm_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：340
+10:21:49.336 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:21:49.338 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "source_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：355
+10:21:49.520 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:21:49.520 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "source_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：355
+10:21:49.655 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:21:49.655 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "source_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：355
+10:21:49.781 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:21:49.781 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "source_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：355
+10:21:49.912 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:21:49.912 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "source_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：355
+10:21:50.037 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:21:50.037 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "source_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：355
+10:21:50.156 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:21:50.157 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "source_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：355
+10:21:50.273 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:21:50.274 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "source_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：355
+10:21:50.392 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:21:50.393 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "source_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：355
+10:21:50.506 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:21:50.506 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "source_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：355
+10:21:50.617 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:21:50.617 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "source_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：355
+10:21:50.734 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 42804
+10:21:50.734 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: column "source_id" is of type integer but expression is of type character varying
+  建议：You will need to rewrite or cast the expression.
+  位置：355
+10:22:43.241 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:22:43.244 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:22:43.571 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:22:43.571 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:22:43.686 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:22:43.686 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:22:43.811 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:22:43.811 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:22:43.938 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:22:43.938 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:22:44.052 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:22:44.052 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:23:26.345 WARN  o.s.c.s.FileSystemXmlApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in URL [file:/D:/GitHub/LemonSpider/modules/tools/target/classes/applicationContext.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+10:24:19.592 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:19.594 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:19.755 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:19.755 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:19.948 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:19.949 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:20.089 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:20.089 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:20.202 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:20.203 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:20.317 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:20.317 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:20.434 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:20.434 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:20.541 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:20.541 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:20.654 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:20.654 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:20.762 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:20.762 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:20.866 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:20.867 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:20.972 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:20.972 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:21.085 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:21.085 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:21.190 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:21.191 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:21.296 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:21.296 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:21.402 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:21.402 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:22.074 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:22.074 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:22.184 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:22.185 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:22.283 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:22.284 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:22.387 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:22.387 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:22.495 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:22.495 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:22.603 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:22.603 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:22.709 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:22.709 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:22.860 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:22.860 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:22.909 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:22.909 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:22.961 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:22.962 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:23.065 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:23.065 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:23.139 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:23.140 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:23.167 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:23.167 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:23.242 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:23.243 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:23.271 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:23.271 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:23.358 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:23.358 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:23.374 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:23.374 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:23.489 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:23.489 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:24:23.498 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:24:23.498 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:26:16.269 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:26:16.271 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:26:16.625 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:26:16.625 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:26:16.913 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:26:16.913 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:26:17.050 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:26:17.050 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:26:17.181 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:26:17.181 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:26:17.306 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:26:17.307 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:26:17.422 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:26:17.422 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:26:17.546 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:26:17.547 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:26:17.663 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:26:17.663 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:26:17.780 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:26:17.780 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:26:17.888 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:26:17.888 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:26:18.006 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:26:18.006 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:26:18.238 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:26:18.239 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:26:18.871 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:26:18.871 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:26:18.997 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:26:18.997 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:26:19.113 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:26:19.113 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:26:19.230 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:26:19.230 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:26:19.354 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:26:19.354 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:26:19.587 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:26:19.587 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:26:19.695 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:26:19.695 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:26:19.813 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:26:19.813 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:26:19.946 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22001
+10:26:19.946 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: value too long for type character varying(255)
+10:27:52.265 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:52.267 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:27:52.624 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:52.624 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:27:52.781 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:52.781 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:27:53.058 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:53.058 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:27:53.223 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:53.223 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:27:53.381 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:53.381 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:27:53.540 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:53.540 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:27:53.673 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:53.674 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:27:53.815 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:53.815 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:27:53.947 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:53.948 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:27:54.089 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:54.089 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:27:54.722 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:54.722 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:27:54.864 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:54.864 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:27:55.006 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:55.006 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:27:55.139 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:55.139 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:27:55.315 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:55.315 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:27:55.464 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:55.464 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:27:55.606 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:55.606 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:27:55.747 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:55.747 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:27:55.865 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:55.865 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:27:56.013 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:56.013 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:27:56.163 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:56.163 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:27:56.397 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:27:56.397 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:29:34.288 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:29:34.290 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:29:34.473 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:29:34.473 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:29:34.632 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:29:34.632 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:29:34.775 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:29:34.775 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:29:34.932 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:29:34.932 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:29:35.125 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:29:35.125 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:29:35.256 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:29:35.256 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:29:35.406 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:29:35.407 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:29:35.565 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:29:35.565 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:29:35.723 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:29:35.723 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:29:35.872 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:29:35.872 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:29:35.998 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:29:35.998 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:29:36.114 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:29:36.114 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:29:36.341 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:29:36.341 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:29:36.531 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:29:36.531 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:30:42.002 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:30:42.004 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:30:42.212 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:30:42.212 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:30:42.379 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:30:42.379 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:30:42.545 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:30:42.545 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:30:42.680 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:30:42.680 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:30:42.823 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:30:42.823 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:30:43.145 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:30:43.145 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:30:43.296 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:30:43.296 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:30:43.429 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:30:43.429 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:33.912 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:33.914 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:34.049 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:34.049 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:34.182 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:34.182 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:34.441 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:34.441 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:34.683 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:34.683 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:34.807 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:34.807 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:35.040 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:35.040 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:35.159 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:35.159 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:35.282 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:35.282 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:35.407 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:35.407 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:35.740 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:35.740 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:36.541 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:36.541 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:36.657 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:36.657 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:36.781 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:36.782 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:36.907 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:36.907 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:37.024 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:37.024 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:37.274 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:37.274 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:37.391 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:37.391 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:37.514 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:37.514 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:37.657 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:37.657 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:37.839 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:37.840 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:37.984 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:37.984 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:38.107 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:38.107 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:38.249 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:38.249 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:38.431 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:38.431 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:38.689 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:38.689 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:38.822 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:38.823 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:38.948 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:38.948 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:39.073 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:39.073 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:39.197 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:39.197 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:39.448 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:39.449 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:39.573 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:39.573 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:40.171 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:40.172 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:40.346 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:40.347 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:40.589 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:40.589 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:40.730 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:40.730 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:40.881 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:40.881 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:41.022 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:41.022 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:41.313 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:41.313 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:41.422 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:41.422 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:41.464 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:41.464 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:41.722 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:41.722 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:41.873 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:41.873 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:41.881 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:41.881 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:42.056 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:42.056 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:42.206 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:42.206 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:42.214 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:42.214 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:42.389 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:42.389 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:42.706 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:42.706 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:42.889 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:42.889 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:43.056 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:43.056 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:43.380 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:43.380 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:43.548 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:43.548 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:43.897 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:43.897 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:44.106 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:44.106 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:44.263 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:44.263 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:44.472 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:44.472 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:44.721 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:44.721 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:44.796 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:44.796 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:44.988 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:44.989 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:45.363 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:45.363 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:45.580 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:45.580 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:45.837 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:45.838 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:45.988 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:45.988 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:46.662 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:46.662 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:46.729 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:46.729 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:46.930 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:46.930 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:46.971 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:46.971 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:47.262 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:47.262 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:47.478 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:47.479 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:47.578 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:47.579 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:47.705 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:47.705 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:47.845 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:47.845 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:47.895 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:47.896 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:48.044 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:48.045 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:48.053 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:48.053 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:48.278 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:48.278 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:48.321 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:48.321 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:48.496 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:48.496 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:48.503 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:48.503 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:48.661 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:48.661 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:48.686 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:48.686 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:48.845 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:48.845 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:49.029 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:49.029 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:50.086 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:50.086 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:50.194 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:50.194 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:50.294 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:50.294 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:50.385 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:50.386 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:50.394 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:50.394 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:50.502 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:50.502 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:50.577 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:50.577 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:50.661 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:50.661 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:50.710 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:50.710 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:50.753 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:50.753 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:50.870 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:50.870 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:50.885 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:50.885 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:50.936 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:50.937 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:51.435 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:51.435 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:51.477 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:51.477 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:51.660 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:51.660 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:51.836 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:51.836 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:52.010 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:52.010 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:52.276 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:52.276 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:52.918 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:52.918 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:53.069 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:53.069 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:53.168 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:53.168 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:53.401 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:53.402 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:53.842 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:53.842 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:54.059 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:54.059 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:54.260 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:54.260 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:54.351 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:54.351 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:54.360 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:54.360 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:54.468 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:54.468 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:54.551 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:54.551 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:54.609 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:54.609 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:54.726 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:54.726 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:54.842 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:54.842 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:54.943 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:54.943 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:55.170 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:55.170 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:55.184 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:55.184 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:55.410 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:55.410 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:55.500 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:55.500 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:55.585 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:55.585 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:55.609 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:55.610 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:55.692 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:55.692 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:55.708 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:55.709 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:55.780 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:55.781 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:55.826 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:55.826 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:55.900 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:55.900 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:55.909 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:55.909 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:55.958 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:55.958 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:56.001 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:56.001 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:56.092 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:56.092 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:56.268 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:56.268 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:56.525 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:56.525 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:56.650 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:56.650 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:32:56.709 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:32:56.709 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
+10:34:38.741 WARN  o.h.e.j.s.SqlExceptionHelper- SQL Error: 0, SQLState: 22021
+10:34:38.746 ERROR o.h.e.j.s.SqlExceptionHelper- ERROR: invalid byte sequence for encoding "UTF8": 0x00
