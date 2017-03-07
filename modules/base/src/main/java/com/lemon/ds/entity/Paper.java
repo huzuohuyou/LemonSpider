@@ -15,7 +15,8 @@ public class Paper extends IdSerialEntity {
 //	@NotNull
 //	private Integer Id;
 	@NotNull
-	private String title;
+	private String article_title;
+	private String article_title2;
 	@NotNull
 	private Integer sizeKB = 0;
 	private Integer fulltext;
@@ -60,12 +61,12 @@ public class Paper extends IdSerialEntity {
 //		Id = id;
 //	}
 
-	public String getTitle() {
-		return title;
+	public String getArticle_title() {
+		return article_title;
 	}
 
-	public void setTitle(String title) {
-		this.title = title;
+	public void setArticle_title(String article_title) {
+		this.article_title = article_title;
 	}
 
 	public Integer getSizeKB() {

@@ -379,7 +379,7 @@ public final class ParserPaper extends Thread {
 		if(titleInfo == null) {
 			return false;
 		}
-		p.setTitle(titleInfo);
+		p.setArticle_title(titleInfo);
 
 		//8. author info
 		String authors = Xsoup.compile("//div[@class='fm-sec half_rhythm no_top_margin']/div[@class=half_rhythm]/div[@class='contrib-group fm-author']/html()").evaluate(doc).get();

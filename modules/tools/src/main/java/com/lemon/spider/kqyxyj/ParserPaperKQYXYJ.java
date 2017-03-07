@@ -200,7 +200,7 @@ public final class ParserPaperKQYXYJ extends Thread {
                 String.format("/Jwk_kqyxyj/CN/article/downloadArticleFile.do?attachType=PDF&id=$d", pmcId),
                 fileSession.getPdfOsPath());
 
-        p.setTitle(title);
+        p.setArticle_title(title);
         p.setDoi(doi);
         p.setJournal(journal);
         p.setJournal_volume(journalVolume);
