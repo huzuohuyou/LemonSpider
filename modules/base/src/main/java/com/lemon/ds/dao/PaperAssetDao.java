@@ -6,7 +6,6 @@
 package com.lemon.ds.dao;
 
 import com.lemon.ds.base.dao.LemonRepo;
-import com.lemon.ds.entity.PaperAsset;
 
 public interface PaperAssetDao extends LemonRepo<PaperAsset, Integer> {
 

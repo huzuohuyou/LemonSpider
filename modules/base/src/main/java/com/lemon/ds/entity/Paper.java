@@ -1,88 +1,425 @@
 package com.lemon.ds.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
 import com.lemon.ds.base.entity.IdSerialEntity;
+import org.springside.modules.utils.Clock;
+import javax.persistence.Column;
+import javax.validation.constraints.NotNull;
+import java.util.Date;
+
+@Entity
+@Table(name = "paper")
+public class Paper extends  IdSerialEntity {
+	//构造器方法
+	public Paper() {
+
+	}
+	//成员变量
+	@NotNull
+	@Column(length = 1024)
+	private String article_title;
+
+	@Column(length = 1024)
+	private String article_title2;
+
+	@NotNull
+	private Integer sizekb;
+
+	@NotNull
+	@Column(length = 1224)
+	private String mid;
+
+	@NotNull
+	private Integer midhash;
+
+	@Column(length = 1024)
+	private String fulltext_u_r_l;
+
+	@Column(length = 204800)
+	private String tabloid;
+
+	@Column(length = 204800)
+	private String tabloid2;
+
+	@Column(length = 102400)
+	private String keywords;
+
+	@Column(length = 102400)
+	private String keywords2;
+
+	@Column(length = 1024)
+	private String doi;
+
+	private Integer nihms_id;
+
+	private Integer pm_id;
+
+	@NotNull
+	private Integer data_mask;
+
+	@NotNull
+	private String language_category;
+
+	@NotNull
+	private Integer journal_id;
+
+	@NotNull
+	private Integer year;
+
+	@NotNull
+	@Column(length = 255)
+	private String volume;
+
+	@NotNull
+	@Column(length = 255)
+	private String period;
+
+	@NotNull
+	private Integer page_start;
+
+	@NotNull
+	private Integer page_end;
+
+	private Date online_date = Clock.DEFAULT.getCurrentDate();
+
+	@NotNull
+	private Date ts = Clock.DEFAULT.getCurrentDate();
+
+	//Get Method
+	public String getArticle_title() {
+		return article_title;
+	}
+
+	public String getArticle_title2() {
+		return article_title2;
+	}
+
+	public Integer getSizekb() {
+		return sizekb;
+	}
+
+	public String getMid() {
+		return mid;
+	}
+
+	public Integer getMidhash() {
+		return midhash;
+	}
+
+	public String getFulltext_u_r_l() {
+		return fulltext_u_r_l;
+	}
+
+	public String getTabloid() {
+		return tabloid;
+	}
+
+	public String getTabloid2() {
+		return tabloid2;
+	}
+
+	public String getKeywords() {
+		return keywords;
+	}
+
+	public String getKeywords2() {
+		return keywords2;
+	}
+
+	public String getDoi() {
+		return doi;
+	}
+
+	public Integer getNihms_id() {
+		return nihms_id;
+	}
+
+	public Integer getPm_id() {
+		return pm_id;
+	}
+
+	public Integer getData_mask() {
+		return data_mask;
+	}
+
+	public String getLanguage_category() {
+		return language_category;
+	}
+
+	public Integer getJournal_id() {
+		return journal_id;
+	}
+
+	public Integer getYear() {
+		return year;
+	}
+
+	public String getVolume() {
+		return volume;
+	}
+
+	public String getPeriod() {
+		return period;
+	}
+
+	public Integer getPage_start() {
+		return page_start;
+	}
+
+	public Integer getPage_end() {
+		return page_end;
+	}
+
+	public Date getOnline_date() {
+		return online_date;
+	}
+
+	public Date getTs() {
+		return ts;
+	}
+
+	//Set Method
+	public void setArticle_title(String article_title) {
+		this.article_title = article_title;
+	}
+
+	public void setArticle_title2(String article_title2) {
+		this.article_title2 = article_title2;
+	}
+
+	public void setSizekb(Integer sizekb) {
+		this.sizekb = sizekb;
+	}
+
+	public void setMid(String mid) {
+		this.mid = mid;
+	}
+
+	public void setMidhash(Integer midhash) {
+		this.midhash = midhash;
+	}
+
+	public void setFulltext_u_r_l(String fulltext_u_r_l) {
+		this.fulltext_u_r_l = fulltext_u_r_l;
+	}
+
+	public void setTabloid(String tabloid) {
+		this.tabloid = tabloid;
+	}
+
+	public void setTabloid2(String tabloid2) {
+		this.tabloid2 = tabloid2;
+	}
+
+	public void setKeywords(String keywords) {
+		this.keywords = keywords;
+	}
+
+	public void setKeywords2(String keywords2) {
+		this.keywords2 = keywords2;
+	}
+
+	public void setDoi(String doi) {
+		this.doi = doi;
+	}
+
+	public void setNihms_id(Integer nihms_id) {
+		this.nihms_id = nihms_id;
+	}
+
+	public void setPm_id(Integer pm_id) {
+		this.pm_id = pm_id;
+	}
+
+	public void setData_mask(Integer data_mask) {
+		this.data_mask = data_mask;
+	}
+
+	public void setLanguage_category(String language_category) {
+		this.language_category = language_category;
+	}
+
+	public void setJournal_id(Integer journal_id) {
+		this.journal_id = journal_id;
+	}
+
+	public void setYear(Integer year) {
+		this.year = year;
+	}
+
+	public void setVolume(String volume) {
+		this.volume = volume;
+	}
+
+	public void setPeriod(String period) {
+		this.period = period;
+	}
+
+	public void setPage_start(Integer page_start) {
+		this.page_start = page_start;
+	}
+
+	public void setPage_end(Integer page_end) {
+		this.page_end = page_end;
+	}
+
+	public void setOnline_date(Date online_date) {
+		this.online_date = online_date;
+	}
+
+	public void setTs(Date ts) {
+		this.ts = ts;
+	}
+}
+
+
+/*package com.lemon.ds.entity;
+
+
+import com.lemon.ds.base.entity.IdSerialEntity;
+import com.lemon.ds.base.entity.LemonEntity;
 import org.springside.modules.utils.Clock;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 import javax.validation.constraints.NotNull;
 import java.util.Date;
 
 @Entity
 @Table(name = "paper")
 public class Paper extends IdSerialEntity {
-//	@NotNull
-//	private Integer Id;
+	private Integer pmId;
 	@NotNull
-	private String article_title;
-	private String article_title2;
-	@NotNull
-	private Integer sizeKB = 0;
-	private Integer fulltext;
-	@Column(length = 204800)
-	private String abstr;
-	@Column(length = 10240)
-	private String keyword;
-	private String abstr_cn;
-	private String keyword_cn;
+	private Integer pmcId;	  //PMCID: PMC3125087
+	//maybe null
 	private String doi;
-	private Integer nihms_id;
-	private String source;
-	private String url_abstract;
-	private String url_fulltext;
-	private Integer source_id;
-	private String source_id_str;
-	private Integer pm_id;
+	private Integer nihmsId;  //NIHMSID: NIHMS301993
+
 	@NotNull
 	private String journal;
 	@NotNull
-	private Integer journal_year;
-	private String journal_volume;
-	private String journal_no;
+	private String journalVolume;
+
 	@NotNull
-	private Integer page_begin = 0;
+	private Integer pageBegin = 0;
 	@NotNull
-	private Integer page_end = 0;
+	private Integer pageEnd = 0;
+
+	//maybe null
+	private Date onlineDate;
+
+	@NotNull
+	private String title;	//Viruses as anticancer drugs
+
+	@Column(length = 20480)
+	private String abstr;
+
+	//maybe null
+	@Column(length = 10240)
+	private String keyword; //json
+	//maybe null 有些公众文章
 	@Column(length = 10240)
 	private String authors; //json
+
 	@Column(length = 20480)
-	private String author_orgs;
+	private String authorOrgs;
+
+	@NotNull
+	private Integer sizeKB = 0;
+
 	@NotNull
 	private Date ts = Clock.DEFAULT.getCurrentDate();
 
-	//@Override
-//	public Integer getId() {
-//		return Id;
-//	}
-
-//	@Override
-//	public void setId(Integer id) {
-//		Id = id;
-//	}
-
-	public String getArticle_title() {
-		return article_title;
+	public Paper(int pmcId) {
+		this.pmcId = pmcId;
 	}
 
-	public void setArticle_title(String article_title) {
-		this.article_title = article_title;
+	public Paper() {
+
 	}
 
-	public Integer getSizeKB() {
-		return sizeKB;
+
+	public Integer getPmId() {
+		return pmId;
 	}
 
-	public void setSizeKB(Integer sizeKB) {
-		this.sizeKB = sizeKB;
+	public void setPmId(Integer pmId) {
+		this.pmId = pmId;
 	}
 
-	public Integer getFulltext() {
-		return fulltext;
+	public Integer getPmcId() {
+		return pmcId;
 	}
 
-	public void setFulltext(Integer fulltext) {
-		this.fulltext = fulltext;
+	public void setPmcId(Integer pmcId) {
+		this.pmcId = pmcId;
+	}
+
+	public String getDoi() {
+		return doi;
+	}
+
+	public void setDoi(String doi) {
+		this.doi = doi;
+	}
+
+	public Integer getNihmsId() {
+		return nihmsId;
+	}
+
+	public void setNihmsId(Integer nihmsId) {
+		this.nihmsId = nihmsId;
+	}
+
+	public String getJournal() {
+		return journal;
+	}
+
+	public void setJournal(String journal) {
+		this.journal = journal;
+	}
+
+	public String getJournalVolume() {
+		return journalVolume;
+	}
+
+	public void setJournalVolume(String journalVolume) {
+		this.journalVolume = journalVolume;
+	}
+
+	public Integer getPageBegin() {
+		return pageBegin;
+	}
+
+	public void setPageBegin(Integer pageBegin) {
+		this.pageBegin = pageBegin;
+	}
+
+	public Integer getPageEnd() {
+		return pageEnd;
+	}
+
+	public void setPageEnd(Integer pageEnd) {
+		this.pageEnd = pageEnd;
+	}
+
+	public Date getOnlineDate() {
+		return onlineDate;
+	}
+
+	public void setOnlineDate(Date onlineDate) {
+		this.onlineDate = onlineDate;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
 	}
 
 	public String getAbstr() {
@@ -101,134 +438,6 @@ public class Paper extends IdSerialEntity {
 		this.keyword = keyword;
 	}
 
-	public String getAbstr_cn() {
-		return abstr_cn;
-	}
-
-	public void setAbstr_cn(String abstr_cn) {
-		this.abstr_cn = abstr_cn;
-	}
-
-	public String getKeyword_cn() {
-		return keyword_cn;
-	}
-
-	public void setKeyword_cn(String keyword_cn) {
-		this.keyword_cn = keyword_cn;
-	}
-
-	public String getDoi() {
-		return doi;
-	}
-
-	public void setDoi(String doi) {
-		this.doi = doi;
-	}
-
-	public Integer getNihms_id() {
-		return nihms_id;
-	}
-
-	public void setNihms_id(Integer nihms_id) {
-		this.nihms_id = nihms_id;
-	}
-
-	public String getSource() {
-		return source;
-	}
-
-	public void setSource(String source) {
-		this.source = source;
-	}
-
-	public String getUrl_abstract() {
-		return url_abstract;
-	}
-
-	public void setUrl_abstract(String url_abstract) {
-		this.url_abstract = url_abstract;
-	}
-
-	public String getUrl_fulltext() {
-		return url_fulltext;
-	}
-
-	public void setUrl_fulltext(String url_fulltext) {
-		this.url_fulltext = url_fulltext;
-	}
-
-	public Integer getSource_id() {
-		return source_id;
-	}
-
-	public void setSource_id(Integer source_id) {
-		this.source_id = source_id;
-	}
-
-	public String getSource_id_str() {
-		return source_id_str;
-	}
-
-	public void setSource_id_str(String source_id_str) {
-		this.source_id_str = source_id_str;
-	}
-
-	public Integer getPm_id() {
-		return pm_id;
-	}
-
-	public void setPm_id(Integer pm_id) {
-		this.pm_id = pm_id;
-	}
-
-	public String getJournal() {
-		return journal;
-	}
-
-	public void setJournal(String journal) {
-		this.journal = journal;
-	}
-
-	public Integer getJournal_year() {
-		return journal_year;
-	}
-
-	public void setJournal_year(Integer journal_year) {
-		this.journal_year = journal_year;
-	}
-
-	public String getJournal_volume() {
-		return journal_volume;
-	}
-
-	public void setJournal_volume(String journal_volume) {
-		this.journal_volume = journal_volume;
-	}
-
-	public String getJournal_no() {
-		return journal_no;
-	}
-
-	public void setJournal_no(String journal_no) {
-		this.journal_no = journal_no;
-	}
-
-	public Integer getPage_begin() {
-		return page_begin;
-	}
-
-	public void setPage_begin(Integer page_begin) {
-		this.page_begin = page_begin;
-	}
-
-	public Integer getPage_end() {
-		return page_end;
-	}
-
-	public void setPage_end(Integer page_end) {
-		this.page_end = page_end;
-	}
-
 	public String getAuthors() {
 		return authors;
 	}
@@ -237,36 +446,28 @@ public class Paper extends IdSerialEntity {
 		this.authors = authors;
 	}
 
-	public String getAuthor_orgs() {
-		return author_orgs;
+	public String getAuthorOrgs() {
+		return authorOrgs;
 	}
 
-	public void setAuthor_orgs(String author_orgs) {
-		this.author_orgs = author_orgs;
+	public void setAuthorOrgs(String authorOrgs) {
+		this.authorOrgs = authorOrgs;
+	}
+
+	public Integer getSizeKB() {
+		return sizeKB;
+	}
+
+	public void setSizeKB(Integer sizeKB) {
+		this.sizeKB = sizeKB;
 	}
 
 	public Date getTs() {
 		return ts;
 	}
-
+	
 	public void setTs(Date ts) {
 		this.ts = ts;
 	}
-
-
-
-
-
-
-
-
-	public Paper(int id) {
-		this.id = id;
-	}
-
-	public Paper() {
-
-	}
-
-
 }
+*/

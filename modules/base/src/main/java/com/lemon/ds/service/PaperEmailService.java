@@ -2,7 +2,6 @@ package com.lemon.ds.service;
 
 import com.lemon.ds.base.service.LemonServiceDefault;
 import com.lemon.ds.dao.PaperEmailDao;
-import com.lemon.ds.entity.PaperEmail;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 

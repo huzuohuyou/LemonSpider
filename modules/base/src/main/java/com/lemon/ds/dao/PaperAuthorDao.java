@@ -6,8 +6,8 @@
 package com.lemon.ds.dao;
 
 import com.lemon.ds.base.dao.LemonRepo;
-import com.lemon.ds.entity.AuthorPapers;
+import com.lemon.ds.entity.PaperAuthor;
 
-public interface AuthorPapersDao extends LemonRepo<AuthorPapers, Integer> {
+public interface PaperAuthorDao extends LemonRepo<PaperAuthor, Integer> {
 
 }

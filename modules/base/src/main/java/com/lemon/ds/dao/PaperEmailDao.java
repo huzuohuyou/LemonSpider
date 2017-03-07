@@ -6,7 +6,6 @@
 package com.lemon.ds.dao;
 
 import com.lemon.ds.base.dao.LemonRepo;
-import com.lemon.ds.entity.PaperEmail;
 
 public interface PaperEmailDao extends LemonRepo<PaperEmail, Integer> {
 

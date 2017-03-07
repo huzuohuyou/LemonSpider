@@ -2,11 +2,7 @@ package com.lemon.spider.pmc;
 
 import com.lemon.commons.file.FileUtil;
 import com.lemon.commons.spider.XDownloader;
-import com.lemon.ds.entity.Paper;
-import com.lemon.ds.entity.PaperAsset;
-import com.lemon.ds.entity.PaperEmail;
 import com.lemon.ds.entity.PaperLog;
-import com.lemon.ds.service.PaperAssetService;
 import com.lemon.ds.service.PaperEmailService;
 import com.lemon.ds.service.PaperLogService;
 import com.lemon.ds.service.PaperService;

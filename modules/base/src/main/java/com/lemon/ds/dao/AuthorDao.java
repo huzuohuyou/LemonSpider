@@ -6,7 +6,6 @@
 package com.lemon.ds.dao;
 
 import com.lemon.ds.base.dao.LemonRepo;
-import com.lemon.ds.entity.PaperAuthor;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
