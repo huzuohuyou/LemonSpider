@@ -26,11 +26,11 @@ public class PaperLogService extends LemonServiceDefault<PaperLog, PaperLogDao> 
 	}
 
 	public void saveOrUpdate(PaperLog pl) {
-		PaperLog dbpl = serviceDao.findOneByPmcId(pl.getPmcId());
+		PaperLog dbpl = serviceDao.findOneByPmcId(pl.getId());
 		if(dbpl == null) {
 			serviceDao.save(pl);
 		} else {
-			serviceDao.updateByPmcId(pl.getPmcId(), pl.getStatus(), pl.getComplete(), pl.getErrMsg(), pl.getTs());
+			serviceDao.updateByPmcId(pl.getId(), pl.getStatus(), pl.getComplete(), pl.getStatus_msg(), pl.getTs());
 		}
 	}
 

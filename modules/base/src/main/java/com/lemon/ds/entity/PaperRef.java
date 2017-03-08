@@ -41,7 +41,7 @@ public class PaperRef extends IdSerialEntity {
     @Column(length = 255)
     private String ref_issue;
     private Integer ref_startpage;
-    private Integer ref_endpage
+    private Integer ref_endpage;
 
     //Get Method
 

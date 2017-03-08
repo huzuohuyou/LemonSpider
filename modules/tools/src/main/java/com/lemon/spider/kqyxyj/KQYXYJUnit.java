@@ -2,15 +2,8 @@ package com.lemon.spider.kqyxyj;
 
 import com.lemon.commons.spider.XDownloader;
 import com.lemon.ds.entity.Paper;
-import com.lemon.ds.service.*;
-
 import com.lemon.spider.kqyxyj.parser.*;
-import com.lemon.spider.pmc.ParserPaper;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.FileSystemXmlApplicationContext;
 import org.springframework.stereotype.Component;
-
 import java.text.SimpleDateFormat;
 import java.util.*;
 
@@ -31,7 +24,7 @@ import java.util.*;
  */
 
 @Component
-public final class ParserPaperKQYXYJ extends Thread {
+public final class KQYXYJUnit extends Thread {
 
     public final static int skipHead = 5000;
     private final static char YES = 'y',
@@ -45,9 +38,9 @@ public final class ParserPaperKQYXYJ extends Thread {
     private int mode;
     private int left;
     private int count = 0;
-    private static ApplicationContext context = new FileSystemXmlApplicationContext("classpath*:applicationContext.xml");
 
-    public ParserPaperKQYXYJ(int mode, int left) {
+
+    public KQYXYJUnit(int mode, int left) {
         this.mode = mode;
         this.left = left;
     }
@@ -122,6 +115,8 @@ public final class ParserPaperKQYXYJ extends Thread {
 //        prp.doc2Entity();
         ParserAbs pp = new PaperParser<Paper>(id);
         pp.doc2Entity();
+        Paper p = (Paper) pp.getEntity();
+
         ParserAbs pa = new PaperAuthorParser(id);
         pa.doc2Entity();
         ParserAbs j = new JounalParser(id);

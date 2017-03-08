@@ -2,6 +2,7 @@ package com.lemon.spider.kqyxyj.parser;
 
 import com.lemon.ds.entity.Journal;
 import com.lemon.ds.service.JournalService;
+import com.lemon.ds.service.PaperService;
 
 import java.util.Date;
 
@@ -9,7 +10,7 @@ import java.util.Date;
  * Created by jishu12 on 2017/3/7.
  */
 public class JounalParser extends ParserAbs {
-    JournalService service = new JournalService();
+    JournalService service =context.getBean(JournalService.class);
     public  JounalParser(Integer id){
         super(id);
     }

@@ -1,0 +1,42 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   modules/.idea/workspace.xml
+#	modified:   modules/base/src/main/java/com/lemon/ds/dao/AuthorDao.java
+#	new file:   modules/base/src/main/java/com/lemon/ds/dao/JournalDao.java
+#	new file:   modules/base/src/main/java/com/lemon/ds/dao/OrganizationDao.java
+#	modified:   modules/base/src/main/java/com/lemon/ds/dao/PaperAssetDao.java
+#	renamed:    modules/base/src/main/java/com/lemon/ds/dao/AuthorPapersDao.java -> modules/base/src/main/java/com/lemon/ds/dao/PaperAuthorDao.java
+#	new file:   modules/base/src/main/java/com/lemon/ds/dao/PaperAuthorOrgDao.java
+#	modified:   modules/base/src/main/java/com/lemon/ds/dao/PaperEmailDao.java
+#	deleted:    modules/base/src/main/java/com/lemon/ds/entity/AuthorPapers.java
+#	new file:   modules/base/src/main/java/com/lemon/ds/entity/Journal.java
+#	new file:   modules/base/src/main/java/com/lemon/ds/entity/Organization.java
+#	modified:   modules/base/src/main/java/com/lemon/ds/entity/Paper.java
+#	modified:   modules/base/src/main/java/com/lemon/ds/entity/PaperAuthor.java
+#	new file:   modules/base/src/main/java/com/lemon/ds/entity/PaperAuthorOrg.java
+#	deleted:    modules/base/src/main/java/com/lemon/ds/entity/PaperEmail.java
+#	modified:   modules/base/src/main/java/com/lemon/ds/entity/PaperLog.java
+#	new file:   modules/base/src/main/java/com/lemon/ds/entity/PaperRef.java
+#	new file:   modules/base/src/main/java/com/lemon/ds/entity/PaperSource.java
+#	renamed:    modules/base/src/main/java/com/lemon/ds/service/AuthorService.java -> modules/base/src/main/java/com/lemon/ds/service/AuthorPapersService.java
+#	new file:   modules/base/src/main/java/com/lemon/ds/service/JournalService.java
+#	new file:   modules/base/src/main/java/com/lemon/ds/service/OrganizationService.java
+#	new file:   modules/base/src/main/java/com/lemon/ds/service/PapaerAuthorService.java
+#	deleted:    modules/base/src/main/java/com/lemon/ds/service/PaperAssetService.java
+#	new file:   modules/base/src/main/java/com/lemon/ds/service/PaperAuthorOrgService.java
+#	modified:   modules/base/src/main/java/com/lemon/ds/service/PaperEmailService.java
+#	modified:   modules/tools/src/main/java/com/lemon/spider/kqyxyj/ParserPaperKQYXYJ.java
+#	new file:   modules/tools/src/main/java/com/lemon/spider/kqyxyj/parser/JounalParser.java
+#	new file:   modules/tools/src/main/java/com/lemon/spider/kqyxyj/parser/OrganizationParser.java
+#	new file:   modules/tools/src/main/java/com/lemon/spider/kqyxyj/parser/PaperAuthorOrgParser.java
+#	new file:   modules/tools/src/main/java/com/lemon/spider/kqyxyj/parser/PaperAuthorParser.java
+#	new file:   modules/tools/src/main/java/com/lemon/spider/kqyxyj/parser/PaperParser.java
+#	new file:   modules/tools/src/main/java/com/lemon/spider/kqyxyj/parser/ParserAbs.java
+#	modified:   modules/tools/src/main/java/com/lemon/spider/pmc/ParserPaper.java
+#
+

@@ -1,6 +1,7 @@
 package com.lemon.spider.kqyxyj.parser;
 
 import com.lemon.ds.entity.Paper;
+import com.lemon.ds.service.PapaerAuthorService;
 import com.lemon.ds.service.PaperService;
 import us.codecraft.xsoup.Xsoup;
 
@@ -10,8 +11,8 @@ import java.util.regex.Pattern;
 /**
  * Created by jishu12 on 2017/3/7.
  */
-public class PaperParser extends ParserAbs {
-    private PaperService service = new PaperService();
+public class PaperParser<T> extends ParserAbs {
+    private PaperService service = context.getBean(PaperService.class);
 
     public PaperParser(Integer id){
         super(id);
@@ -82,11 +83,11 @@ public class PaperParser extends ParserAbs {
         p.setPeriod(period);
         p.setPage_start(Integer.parseInt(page_start.trim().split("    ")[0].split("-")[0]));
         p.setPage_end(Integer.parseInt(page_end.trim().split("    ")[0].split("-")[1]));
-        service.saveEntity(p);
+        entity= (T) service.saveEntity(p);
     }
 
     @Override
-    public ParserAbs getEntity() {
-        return null;
+    public T getEntity() {
+        return (T)this.entity;
     }
 }

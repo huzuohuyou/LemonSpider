@@ -57,12 +57,12 @@ public class SpiderKQYXYJ {
         try {
 //            context = new FileSystemXmlApplicationContext("classpath*:applicationContext.xml");
             if(left >= 0 && left < threads) {
-                ParserPaperKQYXYJ main = new ParserPaperKQYXYJ(threads, left);
+                KQYXYJUnit main = new KQYXYJUnit(threads, left);
                 main.start();
                 ThreadSafeSleep.sleep(4000);
             } else {
                 for (int i = 0; i < threads; i++) {
-                    ParserPaperKQYXYJ main = new ParserPaperKQYXYJ(threads, i);
+                    KQYXYJUnit main = new KQYXYJUnit(threads, i);
                     main.start();
                     ThreadSafeSleep.sleep(4000);
                 }

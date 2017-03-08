@@ -2,13 +2,14 @@ package com.lemon.spider.kqyxyj.parser;
 
 import com.lemon.ds.entity.Organization;
 import com.lemon.ds.service.OrganizationService;
+import com.lemon.ds.service.PaperService;
 import us.codecraft.xsoup.Xsoup;
 
 /**
  * Created by jishu12 on 2017/3/7.
  */
 public class OrganizationParser extends ParserAbs {
-    OrganizationService service = new OrganizationService();
+    OrganizationService service = context.getBean(OrganizationService.class);
     public OrganizationParser(Integer id){
         super(id);
     }

@@ -22,11 +22,11 @@ public class XDownloaderKQYXYJ extends XDownloader {
 
     @Override
     protected boolean checkBlockStatus(String text, String url) {
-        if(text.indexOf("Bulk downloading of content", ParserPaperKQYXYJ.skipHead) >= 0) {
+        if(text.indexOf("Bulk downloading of content", KQYXYJUnit.skipHead) >= 0) {
             System.out.println("[Blocked]:  try other way. " + url);
             return true; //
         }
-        if(text.indexOf("Page not available</h1>", ParserPaperKQYXYJ.skipHead) >= 0) {
+        if(text.indexOf("Page not available</h1>", KQYXYJUnit.skipHead) >= 0) {
             System.out.println("[NA-Skip]:  Page not available. " + url);
             return false; //
         }

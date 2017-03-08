@@ -2,6 +2,7 @@ package com.lemon.spider.kqyxyj.parser;
 
 import com.lemon.ds.entity.PaperAuthor;
 import com.lemon.ds.service.PapaerAuthorService;
+import com.lemon.ds.service.PaperAuthorOrgService;
 import us.codecraft.xsoup.Xsoup;
 
 import java.util.regex.Matcher;
@@ -13,7 +14,7 @@ import static org.apache.batik.svggen.SVGStylingAttributes.set;
  * Created by jishu12 on 2017/3/7.
  */
 public class PaperAuthorParser extends ParserAbs  {
-    PapaerAuthorService service=new PapaerAuthorService();
+    PapaerAuthorService service =context.getBean(PapaerAuthorService.class);
     public PaperAuthorParser(Integer id){
         super(id);
     }
